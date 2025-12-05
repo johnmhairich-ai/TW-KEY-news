@@ -1,0 +1,4071 @@
+<!DOCTYPE html>
+<html lang='zh-Hant'>
+<head>
+<meta charset='UTF-8' />
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<title>個人新聞儀表板</title>
+<style>
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #0f172a;
+        color: #e5e7eb;
+    }
+    header {
+        background: linear-gradient(135deg, #0ea5e9, #6366f1);
+        color: white;
+        padding: 24px 16px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 28px;
+        letter-spacing: 0.05em;
+    }
+    header p {
+        margin: 8px 0 0 0;
+        font-size: 13px;
+        opacity: 0.9;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 16px;
+    }
+    .category {
+        margin-bottom: 32px;
+    }
+    .category-title {
+        font-size: 20px;
+        margin-bottom: 12px;
+        border-left: 4px solid #38bdf8;
+        padding-left: 8px;
+        color: #e0f2fe;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 12px;
+    }
+    .card {
+        background: rgba(15,23,42,0.9);
+        border-radius: 10px;
+        padding: 12px 14px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+        border: 1px solid rgba(148,163,184,0.4);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 6px;
+        line-height: 1.4;
+    }
+    .card-title a {
+        color: #e5e7eb;
+        text-decoration: none;
+    }
+    .card-title a:hover {
+        color: #38bdf8;
+        text-decoration: underline;
+    }
+    .card-snippet {
+        font-size: 12px;
+        color: #cbd5f5;
+        margin-top: 4px;
+        line-height: 1.5;
+    }
+    .card-meta {
+        font-size: 11px;
+        color: #9ca3af;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6px;
+    }
+    .badge {
+        display: inline-block;
+        padding: 2px 6px;
+        border-radius: 999px;
+        font-size: 10px;
+        background: rgba(56,189,248,0.16);
+        color: #bae6fd;
+        border: 1px solid rgba(56,189,248,0.45);
+    }
+    .timestamp {
+        opacity: 0.9;
+        font-style: italic;
+    }
+    footer {
+        text-align: center;
+        font-size: 11px;
+        color: #6b7280;
+        padding: 16px;
+    }
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 22px;
+        }
+        .card {
+            padding: 10px 11px;
+        }
+    }
+    
+</style>
+</head>
+<body>
+<header>
+<h1>📰 個人新聞儀表板</h1>
+<p>最後更新時間：2025-12-05 12:17 | 資料來源：RSS 即時彙整</p>
+</header>
+<div class='container'>
+<section class='category'>
+<h2 class='category-title'>🌏 國際財經 (中文)</h2>
+<div class='grid'>
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7239/9184037" target="_blank" rel="noopener noreferrer">
+                            新台幣午盤貶0.4分　暫收31.342元
+                        </a>
+                    </div>
+                    <div class="card-snippet">台北外匯市場新台幣兌美元今天中午暫收31.342元，貶0.4分，成交金額4.81億美元</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 12:18</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6809/9184041" target="_blank" rel="noopener noreferrer">
+                            台灣也一樣？南韓房價漲太兇 年輕人買不起房乾脆炒股 槓桿空前高
+                        </a>
+                    </div>
+                    <div class="card-snippet">南韓民眾正以空前步調投入股市，因為房價高攀不起，無力買房，乾脆轉為炒股。這一轉變凸顯出南韓官員無法遏制房價、緩解民眾對購...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 12:13</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9184041" target="_blank" rel="noopener noreferrer">
+                            台灣也一樣？南韓房價漲太兇 年輕人買不起房乾脆炒股 槓桿空前高
+                        </a>
+                    </div>
+                    <div class="card-snippet">南韓民眾正以空前步調投入股市，因為房價高攀不起，無力買房，乾脆轉為炒股。這一轉變凸顯出南韓官員無法遏制房價、緩解民眾對購...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 12:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7238/9184036" target="_blank" rel="noopener noreferrer">
+                            台智電採購第二案 與SRE簽購售電協議495MW
+                        </a>
+                    </div>
+                    <div class="card-snippet">台智電5日宣布，與風睿能源集團（SREGroup）旗下的「海盛風電」（Formosa 4）完成簽署購售電協議，這是台智電...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 12:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7239/9184030" target="_blank" rel="noopener noreferrer">
+                            一卡通服務再升級！宣布啟用 iPASS MONEY 的 LINE MINI App
+                        </a>
+                    </div>
+                    <div class="card-snippet">一卡通公司為持續提供 720 萬 iPASS MONEY 用戶熟悉的支付體驗，5日宣布升級服務，啟用 iPASS MON...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 12:09</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/10511/9183988" target="_blank" rel="noopener noreferrer">
+                            美軍連續襲運毒船遭質疑　民主黨促調查共和黨稱合法
+                        </a>
+                    </div>
+                    <div class="card-snippet">針對美軍在加勒比海對一艘疑似運毒船發動攻擊，民主黨籍國會議員聽取簡報後表示，影片顯示倖存者在痛苦中被殺害，讓他們感到憂心...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 12:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/122381/9183731" target="_blank" rel="noopener noreferrer">
+                            OpenAI 護城河夠深有理由樂觀 只怪當初一失算 讓 Google 可打消耗戰
+                        </a>
+                    </div>
+                    <div class="card-snippet">過去三年來，OpenAI和輝達（Nvidia）堪稱是人工智慧（AI）雙雄，前者憑藉ChatGPT被譽為下一家偉大消費科技...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 11:57</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7238/9183976" target="_blank" rel="noopener noreferrer">
+                            台美關稅進入最後談判時刻  23%零售業下修人力需求
+                        </a>
+                    </div>
+                    <div class="card-snippet">面對國際局勢變動、進口關稅調升以及營運成本全面上升，國內零售業徵才現況又是如何？根據1111人力銀行「零售業徵才現況調查...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:57</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/10511/9183957" target="_blank" rel="noopener noreferrer">
+                            俄烏和平川普對俄樂觀　普丁立場卻未見鬆動
+                        </a>
+                    </div>
+                    <div class="card-snippet">俄羅斯總統普丁在印度媒體4日播出的訪談表示，美方的俄烏和平方案部分內容無法接受，但美俄2日的會談仍具實益。普丁抨擊歐洲不...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 11:54</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6811/9183949" target="_blank" rel="noopener noreferrer">
+                            IMF總裁喬治艾娃下周訪陸  出席IMF2025年中國經濟報告發布會
+                        </a>
+                    </div>
+                    <div class="card-snippet">據路透社，國際貨幣基金組織（IMF）周四表示，IMF 總裁克里斯塔利娜．喬治艾娃將於下周訪問中國，屆時該全球貸款機構將完...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:52</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6809/9183925" target="_blank" rel="noopener noreferrer">
+                            宏都拉斯總統候選人納斯拉亞：川普干預破壞勝算
+                        </a>
+                    </div>
+                    <div class="card-snippet">宏都拉斯總統候選人納斯拉亞指出，美國總統川普在最後一刻干預競爭激烈的宏國大選破壞了他的勝算，導致他目前在計票中處於落後狀...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:51</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/10511/9183925" target="_blank" rel="noopener noreferrer">
+                            宏都拉斯總統候選人納斯拉亞：川普干預破壞勝算
+                        </a>
+                    </div>
+                    <div class="card-snippet">宏都拉斯總統候選人納斯拉亞指出，美國總統川普在最後一刻干預競爭激烈的宏國大選破壞了他的勝算，導致他目前在計票中處於落後狀...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 11:45</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124658/9183909" target="_blank" rel="noopener noreferrer">
+                            中國集結逾百船艦最大規模海上「秀肌肉」 日本官房長官回應了
+                        </a>
+                    </div>
+                    <div class="card-snippet">路透4日獨家披露，中國大陸正在東海部署大批海軍和海警船艦。日本TBS電視台報導，內閣官房長官木原稔5日召開例行記者會時強...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:41</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9183909" target="_blank" rel="noopener noreferrer">
+                            中國集結逾百船艦最大規模海上「秀肌肉」 日本官房長官回應了
+                        </a>
+                    </div>
+                    <div class="card-snippet">路透4日獨家披露，中國大陸正在東海部署大批海軍和海警船艦。日本TBS電視台報導，內閣官房長官木原稔5日召開例行記者會時強...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 11:40</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6812/9183846" target="_blank" rel="noopener noreferrer">
+                            阿富汗墮胎悲歌 為求流產母親竟用重石壓女兒肚
+                        </a>
+                    </div>
+                    <div class="card-snippet">在女性權益遭嚴重剝奪的阿富汗，一名母親為讓懷孕的女兒墮胎，竟用重石壓向女兒腹部。這起悲劇僅是冰山一角，凸顯阿富汗女性在嚴...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:36</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6812/9183847" target="_blank" rel="noopener noreferrer">
+                            韓國首爾下初雪 連夜大雪致路面結冰連環車禍頻傳
+                        </a>
+                    </div>
+                    <div class="card-snippet">韓國首爾昨天晚上下起今年第一場雪，不過因為突如其來的大雪，導致今天早上通勤時間有許多不便，甚至有韓媒報導指出，通勤路成了...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:36</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124658/9183851" target="_blank" rel="noopener noreferrer">
+                            APEC不可缺日本 美學者：北京冷處理高市至2026峰會
+                        </a>
+                    </div>
+                    <div class="card-snippet">日中關係因日相高市「台灣有事」答詢在短時間內急遽惡化。前白宮官員麥艾文今天指出，中國將試圖冷落、邊緣化高市至2026年秋...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:36</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7241/9183896" target="_blank" rel="noopener noreferrer">
+                            輝達來也救不了 四大園區房價齊跌、中科連四跌
+                        </a>
+                    </div>
+                    <div class="card-snippet">科學園區房市買氣疲弱，房價持續走跌，永慶房屋發布最新科學園區中古屋房價指數，四大園區第3季全面下滑，台南園區季跌4.7%...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:35</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7240/9183894" target="_blank" rel="noopener noreferrer">
+                            賴總統支持半導體赴美挨批掏空台灣 總統府：把護國神山變山脈
+                        </a>
+                    </div>
+                    <div class="card-snippet">台美關稅談判持續，賴清德總統接受外媒專訪表示，台灣政府支持台積電或台灣的半導體產業到美日歐等地，以促進世界的繁榮跟進步。...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:35</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6812/9183878" target="_blank" rel="noopener noreferrer">
+                            「斷食善終」有爭議！恐危害障礙者生命自主權
+                        </a>
+                    </div>
+                    <div class="card-snippet">非自主「斷食善終」問題在哪？危害障礙者生命自主權的難題</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:31</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7239/9183869" target="_blank" rel="noopener noreferrer">
+                            敦南商圈開發商機來了 土銀公開評選都更實施者 375坪商機可期
+                        </a>
+                    </div>
+                    <div class="card-snippet">台北市精華地都更案來了！土地銀行首次釋出敦南商圈都更案並舉辦招商說明會，該案鄰近松山運動中心、臺北小巨蛋等精華地段，商機...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:29</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7240/9183867" target="_blank" rel="noopener noreferrer">
+                            半導體赴美掏空台灣？ 總統府：投資50%含美日韓企業
+                        </a>
+                    </div>
+                    <div class="card-snippet">賴清德總統近日接受《紐約時報》（The New York Times）「DealBook Summit」專訪，提及願助美...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:29</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124373/9183861" target="_blank" rel="noopener noreferrer">
+                            與大陸貿促會座談 美國大豆出口協會CEO：大陸市場對美國大豆至關重要
+                        </a>
+                    </div>
+                    <div class="card-snippet">釜山川習會後雙方經貿往來以及協議履行情況備受關注，大陸官媒披露，當地時間12月4日，大陸貿促會與美國大豆出口協會在華盛頓...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:24</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9183851" target="_blank" rel="noopener noreferrer">
+                            APEC不可缺日本　美學者：北京冷處理高市至2026峰會
+                        </a>
+                    </div>
+                    <div class="card-snippet">日中關係因日相高市「台灣有事」答詢在短時間內急遽惡化。前白宮官員麥艾文今天指出，中國將試圖冷落、邊緣化高市至2026年秋...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 11:24</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9183847" target="_blank" rel="noopener noreferrer">
+                            韓國首爾下初雪　連夜大雪致路面結冰連環車禍頻傳
+                        </a>
+                    </div>
+                    <div class="card-snippet">韓國首爾昨天晚上下起今年第一場雪，不過因為突如其來的大雪，導致今天早上通勤時間有許多不便，甚至有韓媒報導指出，通勤路成了...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 11:24</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9183846" target="_blank" rel="noopener noreferrer">
+                            阿富汗墮胎悲歌　為求流產母親竟用重石壓女兒肚
+                        </a>
+                    </div>
+                    <div class="card-snippet">在女性權益遭嚴重剝奪的阿富汗，一名母親為讓懷孕的女兒墮胎，竟用重石壓向女兒腹部。這起悲劇僅是冰山一角，凸顯阿富汗女性在嚴...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 11:24</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6809/9183842" target="_blank" rel="noopener noreferrer">
+                            美艦誤擊友軍事件曝光！飛官遭自家飛彈追擊 眼前浮現「人生跑馬燈」
+                        </a>
+                    </div>
+                    <div class="card-snippet">美國海軍在針對葉門叛軍青年運動的行動期間，接連發生數起備受矚目又代價高昂的事故。4日公布的最新調查報告揭露，這場美國海軍...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:21</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9183842" target="_blank" rel="noopener noreferrer">
+                            美艦誤擊友軍事件曝光！飛官遭自家飛彈追擊 眼前浮現「人生跑馬燈」
+                        </a>
+                    </div>
+                    <div class="card-snippet">美國海軍在針對葉門叛軍青年運動的行動期間，接連發生數起備受矚目又代價高昂的事故。4日公布的最新調查報告揭露，這場美國海軍...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 11:20</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050063.aspx" target="_blank" rel="noopener noreferrer">
+                            APEC不可缺日本　美學者：北京冷處理高市至2026峰會
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者鍾佑貞華盛頓4日專電）日中關係因日相高市「台灣有事」答詢在短時間內急遽惡化。前白宮官員麥艾文今天指出，中國將試圖冷落、邊緣化高市至2026年秋天主辦APEC，因為「你不可能辦成功的APEC峰會，卻沒有亞洲第二大經濟體日本參與」。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 11:15</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7241/9183821" target="_blank" rel="noopener noreferrer">
+                            響應國際志工日 新安東京海上產險號召志工展現公益行動力
+                        </a>
+                    </div>
+                    <div class="card-snippet">每年12月5日為「國際志工日」，是全球倡議志願服務與社會共好精神的重要時刻。今年新安東京海上產險以更貼近社會需求的方式響...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050059.aspx" target="_blank" rel="noopener noreferrer">
+                            韓國首爾下初雪　連夜大雪致路面結冰連環車禍頻傳
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社首爾5日綜合外電報導）韓國首爾昨天晚上下起今年第一場雪，不過因為突如其來的大雪，導致今天早上通勤時間有許多不便，甚至有韓媒報導指出，通勤路成了「生存遊戲」，連環車禍、行人跌倒頻傳。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 11:11</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050058.aspx" target="_blank" rel="noopener noreferrer">
+                            阿富汗墮胎悲歌　為求流產母親竟用重石壓女兒肚
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社喀布爾4日綜合外電報導）在女性權益遭嚴重剝奪的阿富汗，一名母親為讓懷孕的女兒墮胎，竟用重石壓向女兒腹部。這起悲劇僅是冰山一角，凸顯阿富汗女性在嚴格墮胎禁令下，被迫採取極端手段的絕望處境。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 11:09</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7238/9183808" target="_blank" rel="noopener noreferrer">
+                            輝達台灣總部何時蓋好？李四川曝進度：明年動工後約3、4年完工
+                        </a>
+                    </div>
+                    <div class="card-snippet">輝達台灣總部將落腳北士科T17、T18，台北市副市長李四川上午接受「千秋萬事」節目主持人王淺秋專訪指出，希望明年6月黃仁...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:06</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6811/9183802" target="_blank" rel="noopener noreferrer">
+                            日本央行再掀升息話題、政策轉向在即？ 法人揭日股後市三大關鍵
+                        </a>
+                    </div>
+                    <div class="card-snippet">近期日本市場在人工智慧驅動交易升溫之際，呈現明顯分歧走勢，日股11月經歷顯著波動。法人認為，在高市政府的政策支援、聯準會...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 11:04</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7239/9183797" target="_blank" rel="noopener noreferrer">
+                            尤昭文提「PE 養資產、REITs 接棒」策略 第一金投信試車中
+                        </a>
+                    </div>
+                    <div class="card-snippet">因應台灣步入超高齡社會，長照需求殷切，投信投顧公會理事尤昭文呼籲，政策端宜加速推動 REITs 法案，打造「PE 養資產...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:03</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7239/9183799" target="_blank" rel="noopener noreferrer">
+                            國泰世華銀行攜手資誠發布《2025臺灣全民財務健康關鍵報告》
+                        </a>
+                    </div>
+                    <div class="card-snippet">為全面剖析國人財務健康狀態，協助民眾掌握自身財務體質，並提出財務健康促進方案，國泰世華銀行12月4日攜手資誠企業管理顧問...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:03</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7239/9183795" target="_blank" rel="noopener noreferrer">
+                            3,100張門票一小時內完售 元富證券攜「巨人傑」推出2026年度重磅講座
+                        </a>
+                    </div>
+                    <div class="card-snippet">台新新光金控旗下元富證券日前宣布，攜手台股傳奇交易者—巨人傑，將於 2026年1月11日在TICC台北國際會議中心舉辦年...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 11:02</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9183787" target="_blank" rel="noopener noreferrer">
+                            日本家庭支出意外下滑3% 日銀升息前夕凸顯內需疲弱警訊
+                        </a>
+                    </div>
+                    <div class="card-snippet">日本家庭支出在10月下滑，為六個月來首度意外下降，在日本銀行（央行）準備考慮在本月稍後升息之際，經濟數據凸顯出國內需求脆...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 10:59</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6811/9183787" target="_blank" rel="noopener noreferrer">
+                            日本家庭支出意外下滑3% 日銀升息前夕凸顯內需疲弱警訊
+                        </a>
+                    </div>
+                    <div class="card-snippet">日本家庭支出在10月下滑，為六個月來首度意外下降，在日本銀行（央行）準備考慮在本月稍後升息之際，經濟數據凸顯出國內需求脆...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 10:59</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050055.aspx" target="_blank" rel="noopener noreferrer">
+                            風睿能源與台智電簽購售電合約　長期供應綠電
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者曾智怡台北5日電）風睿能源（SRE）今天宣布完成與台灣智慧電能公司（TSEE）企業購售電合約（CPPA）簽署，承諾由旗下海盛風電（Formosa 4）長期供應電力，協助推進產業轉型；本次合作為台智電取得的第2份離岸風場長約。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 10:56</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/10511/9183770" target="_blank" rel="noopener noreferrer">
+                            美貿易代表：美中貿易縮水　朝正確方向發展
+                        </a>
+                    </div>
+                    <div class="card-snippet">美國貿易代表葛里爾（Jamieson Greer）今天表示，美中貿易需要保持平衡，而且可能必須縮小規模。他還說，他認為美...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 10:55</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7239/9183773" target="_blank" rel="noopener noreferrer">
+                            年關救星！勞保紓困貸款來了 最高10萬元手機輕鬆辦
+                        </a>
+                    </div>
+                    <div class="card-snippet">為協助勞工朋友度過經濟難關，土地銀行配合勞動部辦理2026年度「勞工保險被保險人紓困貸款（勞保紓困貸款）」，自12月15...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 10:55</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050054.aspx" target="_blank" rel="noopener noreferrer">
+                            台積電股價狹幅整理　台股平盤震盪
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者曾仁凱台北5日電）美國聯準會（Fed）降息動態持續干擾股市，投資人觀望下週利率會議結果，台股今天盤中於平盤附近震盪整理。至10時30分，集中市場指數上漲22.69點，報27818.4點，成交值約新台幣2177億元。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 10:55</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124373/9183770" target="_blank" rel="noopener noreferrer">
+                            美貿易代表：美中貿易縮水　朝正確方向發展
+                        </a>
+                    </div>
+                    <div class="card-snippet">美國貿易代表葛里爾（Jamieson Greer）今天表示，美中貿易需要保持平衡，而且可能必須縮小規模。他還說，他認為美...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 10:55</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124658/9183660" target="_blank" rel="noopener noreferrer">
+                            中國商務部：若日方一意孤行 將採取反制措施
+                        </a>
+                    </div>
+                    <div class="card-snippet">日本首相高市早苗涉台言論風波已近一個月。中國商務部發言人何亞東昨天被問及是否會採取措施反制日本時說，如果日方一意孤行，中...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 10:55</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7241/9183767" target="_blank" rel="noopener noreferrer">
+                            觀光署推「星級旅館」X「好客民宿」 逾160家旅館通過評鑑
+                        </a>
+                    </div>
+                    <div class="card-snippet">為讓旅客安心入住，放心旅遊，交通部觀光署推動兩大旅宿認證品牌「星級旅館」與「好客民宿」，協助旅客辨識合法優質旅宿，讓民眾...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合財經</span>
+                    <span class="timestamp">2025-12-05 10:52</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050051.aspx" target="_blank" rel="noopener noreferrer">
+                            SIA：半導體10月銷售額年增27.2%　美洲和亞太驅動
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者張建中新竹5日電）美國半導體產業協會（SIA）統計，10月全球半導體銷售額727億美元，月增4.7%，較去年同期增加27.2%，美洲及亞太地區為主要驅動力。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 10:41</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050050.aspx" target="_blank" rel="noopener noreferrer">
+                            美貿易代表：美中貿易縮水　朝正確方向發展
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社華盛頓4日綜合外電報導）美國貿易代表葛里爾（Jamieson Greer）今天表示，美中貿易需要保持平衡，而且可能必須縮小規模。他還說，他認為美中貨物貿易量下降25%是朝「正確方向」發展。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 10:40</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9183734" target="_blank" rel="noopener noreferrer">
+                            元宇宙豪賭虧逾770億美元 Meta 要轉彎了：部分支出轉向 AI 可穿戴設備
+                        </a>
+                    </div>
+                    <div class="card-snippet">Meta正計畫大幅削減對元宇宙的投資，並將資源轉向人工智慧（AI）可穿戴裝置。知情人士透露，此舉為該公司2026年度預算...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 10:38</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6811/9183734" target="_blank" rel="noopener noreferrer">
+                            元宇宙豪賭虧逾770億美元 Meta要轉彎了：部分支出轉向AI可穿戴設備
+                        </a>
+                    </div>
+                    <div class="card-snippet">Meta正計畫大幅削減對元宇宙的投資，並將資源轉向人工智慧（AI）可穿戴裝置。知情人士透露，此舉為該公司2026年度預算...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合全球</span>
+                    <span class="timestamp">2025-12-05 10:38</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050047.aspx" target="_blank" rel="noopener noreferrer">
+                            財部修正促參重大公建範圍　公建類別增至24類
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者呂晏慈台北5日電）財政部公告修正促參重大公建範圍，配合母法促進民間參與公共建設法及施行細則規定，將「長期照顧服務機構」移列至衛生福利及醫療設施類別，並增列影視音設施、綠能設施及數位建設類別，使公共建設由原本21類擴增至24類。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 10:29</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/5599/9183704" target="_blank" rel="noopener noreferrer">
+                            輝達現金滿滿怎麼花？盤點一連串大手筆投資 但沒發動大型併購
+                        </a>
+                    </div>
+                    <div class="card-snippet">輝達在近三年來的這波人工智慧（AI）熱潮中，做為AI晶片龍頭，累積的現金激增，現在很有本錢到處投資、開出...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 10:26</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://money.udn.com/money/story/10511/9183695" target="_blank" rel="noopener noreferrer">
+                            川普政府與日協調台灣議題　薛瑞福：傾向多做少說
+                        </a>
+                    </div>
+                    <div class="card-snippet">中國強烈反制日本首相高市早苗「台灣有事」言論。美國前官員薛瑞福今天談到美方立場時指出，美國與日本協調台灣相關議題時，傾向...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">經濟日報</span>
+                    <span class="timestamp">2025-12-05 10:23</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512050044.aspx" target="_blank" rel="noopener noreferrer">
+                            川普政府與日協調台灣議題　薛瑞福：傾向多做少說
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者鍾佑貞華盛頓4日專電）中國強烈反制日本首相高市早苗「台灣有事」言論。美國前官員薛瑞福今天談到美方立場時指出，美國與日本協調台灣相關議題時，傾向「多做、少說」。例如日本在鄰近台灣的地區部署飛彈，即使不明說，戰略意涵已相當清楚。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 10:13</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050042.aspx" target="_blank" rel="noopener noreferrer">
+                            中國商務部：若日方一意孤行 將採取反制措施
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者張淑伶上海5日電）日本首相高市早苗涉台言論風波已近一個月。中國商務部發言人何亞東昨天被問及是否會採取措施反制日本時說，如果日方一意孤行，中方將採取必要措施，一切後果由日方承擔。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 09:57</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050041.aspx" target="_blank" rel="noopener noreferrer">
+                            美軍攻擊疑似運毒船致4死　反毒行動爭議持續升溫
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社華盛頓4日綜合外電報導）美國軍方表示，今天在東太平洋對一艘疑為運毒船隻發動的攻擊造成4人死亡。鑑於該行動已造成逾87人死亡，爭議聲浪正日益擴大。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 09:51</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050040.aspx" target="_blank" rel="noopener noreferrer">
+                            美國最高法院准德州採用新劃選區圖　共和黨2026添勝算
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社華盛頓4日綜合外電報導）美國最高法院今天允許德州在2026年期中選舉採用重新劃分的國會選區圖，為總統川普所屬的共和黨增加續掌眾議院的希望。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 09:48</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050038.aspx" target="_blank" rel="noopener noreferrer">
+                            日本外國人歸化5年門檻擬延長至10年  與永住許可一致
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者戴雅真東京5日專電）日本執政黨相關人士4日透露，政府考慮把外國人取得日本國籍所需時間從現行「5年以上」調整為「10年以上」。相關調整將納入明年1月制定的外國人政策基本方針。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 09:39</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050035.aspx" target="_blank" rel="noopener noreferrer">
+                            美國會兩黨罕見同調　共推法案阻川普放寬對中AI晶片管制
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社華盛頓4日綜合外電報導）美國共和黨對中鷹派柯頓（Tom Cotton）等人組成的跨黨派聯邦參議員小組今天提出一項法案，將限制川普政府在未來兩年半內放寬管制中國取得人工智慧（AI）晶片的規定。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 09:27</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050034.aspx" target="_blank" rel="noopener noreferrer">
+                            義大利、埃及加強文化交流　羅馬展出逾百件法老珍寶
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者黃雅詩羅馬4日專電）超過130件古埃及珍品，正在義大利總統府旁的「奎里納爾馬廄博物館」展出，其中許多珍寶是首次在埃及境外展出。此次展覽旨在促進義埃文化交流，呼應義大利積極推動的「馬泰計劃」（Piano Mattei），加強與非洲合作。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 09:22</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050032.aspx" target="_blank" rel="noopener noreferrer">
+                            台積電翻紅漲5元　台股早盤揚升近百點
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者曾仁凱台北5日電）美國就業數據分歧，週四美股漲跌互見，台股今天開盤於平盤附近整理，早盤最多上漲近百點。至9時5分，台股加權指數上漲56.22點，至27851.93點。代表中小型股票的櫃買指數同步開高。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 09:19</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050031.aspx" target="_blank" rel="noopener noreferrer">
+                            新台幣開盤貶3.2分　為31.37元
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社台北5日電）台北外匯市場新台幣兌美元匯率今天以31.37元開盤，貶3.2分。1141205</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 09:07</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050029.aspx" target="_blank" rel="noopener noreferrer">
+                            台股開盤漲0.72點
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社台北5日電）台北股市今天開盤漲0.72點，加權股價指數為27796.43點，成交金額新台幣49.89億元。1141205</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 09:05</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050028.aspx" target="_blank" rel="noopener noreferrer">
+                            美國縮短難民工作許可效期　5年大砍為18個月
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社華盛頓4日綜合外電報導）美國總統川普政府今天將難民、尋求庇護者及其他移民的工作許可證效期，從5年大幅縮短至18個月。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 08:50</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050027.aspx" target="_blank" rel="noopener noreferrer">
+                            英國幼兒園性侵案風波未息　教育大臣啟動檢討
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者陳韻聿倫敦4日專電）一名英國籍華裔陳姓男子在幼兒園任職期間，性侵數名孩童並拍攝大量不雅影像，年紀最小的性侵被害人僅2歲，事件持續引發輿論關注。教育大臣今天在國會表示，已啟動地方層級的孩童安全防護措施檢討。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 08:49</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/acul/202512050025.aspx" target="_blank" rel="noopener noreferrer">
+                            戀愛腦拯救法國出版業  巴黎最大浪漫書店開幕
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者李若韻巴黎4日專電）法國最大、專售愛情主題的「吉伯特浪漫書店」，近期於巴黎拉丁區開幕，吸引眾多女性讀者上門。近年法國出版業不景氣，「新浪漫主義」書籍銷售量卻逆勢上升。法國「解放報」提醒，未成年讀者需慎選浪漫文學類型。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 08:29</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050023.aspx" target="_blank" rel="noopener noreferrer">
+                            美國就業數據分歧　法人看台股短線震盪後市仍偏正向
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者曾仁凱台北5日電）美國就業數據分歧，週四美股漲跌互見，法人認為聯準會（Fed）降息動態持續干擾股市，預料台股短線維持高檔震盪，聯準會預計美國時間9日至10日召開會議，屆時可望較為明朗。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 08:18</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050022.aspx" target="_blank" rel="noopener noreferrer">
+                            美加警告：中國駭客植後門　長期潛伏政府網路圖破壞
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社華盛頓4日綜合外電報導）美國和加拿大網路安全機構今天表示，與中國有關的駭客使用高度複雜的惡意軟體，滲透並長期取得若干未公開名稱的政府和資訊技術機構的存取權。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社國際</span>
+                    <span class="timestamp">2025-12-05 08:03</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050015.aspx" target="_blank" rel="noopener noreferrer">
+                            超微獲准出貨部分AI晶片至中國　願依規定繳15%稅金
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社舊金山4日綜合外電報導）超微半導體（AMD）執行長蘇姿丰今天指出，超微已取得部分MI 308晶片對中國出貨的許可，若順利出貨，將準備向美國政府繳納15%的稅金。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 06:56</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050012.aspx" target="_blank" rel="noopener noreferrer">
+                            就業數據分歧　美股收盤漲跌互見
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社紐約4日綜合外電報導）美國股市今天走勢震盪，主要指數收盤漲跌互見，投資人一邊消化勞動市場不同數據，一邊關注聯邦準備理事會（Fed）下週政策決議。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 06:04</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050009.aspx" target="_blank" rel="noopener noreferrer">
+                            聯準會預料將降息、俄烏戰爭和談停滯　國際油價上漲
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社休士頓4日綜合外電報導）由於投資人預期美國聯邦準備理事會（Fed）將降息，加上烏克蘭戰爭和平談判陷入停滯，市場對於達成協議恢復俄羅斯原油供應的預期心理降溫，國際油價今天走揚。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 04:52</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512050006.aspx" target="_blank" rel="noopener noreferrer">
+                            烏克蘭控俄羅斯綁架孩童　還送往北韓「再教育」
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社基輔4日綜合外電報導）俄羅斯被控綁架其占領區域內的數萬名烏克蘭孩童，烏國人權專員盧賓涅茨（Dmytro Lubinets）今天更指出，俄國將其中部分孩童送往北韓進行「再教育」。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 02:53</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512050004.aspx" target="_blank" rel="noopener noreferrer">
+                            市場預期降息心理鼓舞　歐股收漲
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社倫敦4日綜合外電報導）美國最新一批數據強化市場對聯邦準備理事會（Fed）下週及2026年將降息的預期心理，歐洲與亞洲股市今天多半走揚，歐洲3大股市都收高。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-05 01:23</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512040395.aspx" target="_blank" rel="noopener noreferrer">
+                            投資人衡量聯準會降息可能性　美股開盤小漲
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社紐約4日綜合外電報導）投資人正分析美國最新公布的就業市場數據，以評估聯邦準備理事會（Fed）在下週利率決策會議降息的可能性，華爾街股市主要指數今天開盤小升。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-04 22:59</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/afe/202512040393.aspx" target="_blank" rel="noopener noreferrer">
+                            中經院：明年經濟成長3變因　匯率看升平均29.42元
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者蘇思云台北4日電）中經院院長連賢明今天表示，台灣2026年成長預測相對分歧，主要有3個關鍵變因，一是台美貿易談判後續發展，二是中國產能外溢強度，三是全球AI投資動能強弱，判斷應不至於出現AI大泡沫；至於明年新台幣匯率預測平均價位29.42元，可能會再升值一些。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社財經</span>
+                    <span class="timestamp">2025-12-04 22:51</span>
+                </div>
+            </article>
+            
+</div>
+</section>
+<section class='category'>
+<h2 class='category-title'>🔥 頭條焦點</h2>
+<div class='grid'>
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124652/9184028" target="_blank" rel="noopener noreferrer">
+                            「姐姐」楊瓊瓔率先喊參戰 江啟臣台中市長初選能突圍？
+                        </a>
+                    </div>
+                    <div class="card-snippet">2026台中市長接棒之爭，國民黨內矛頭直指初選競爭。立院副院長江啟臣一度被視為盧秀燕意屬接班人，卻因同黨立委楊瓊瓔提前宣布參選，局勢頓生波瀾。江啟臣繼2018遭遇盧秀燕後，再遇「姐姐」挑戰。楊瓊瓔提早布局的深層盤算為何？江啟臣能否利用職位優勢逆轉劣勢？</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 12:08</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124671/9184012" target="_blank" rel="noopener noreferrer">
+                            他在小紅書吸23萬粉絲…卻因做1事遭無情封鎖 苦笑：封殺言論的是誰？
+                        </a>
+                    </div>
+                    <div class="card-snippet">中國社群平台「小紅書」APP在台用戶逾300萬人，不過涉及詐騙、造成財損達2億多元，且也未善意回應，因此內政部下令將「小紅書」APP下架限流1年，引起部分台灣網友抗議表示小紅書內容豐富有「6大不可取代」之處，宛如中文版Google，但對曾到中國發展的台灣網紅可就不那麼認為，曾有2...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 12:02</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6656/9183975" target="_blank" rel="noopener noreferrer">
+                            卓榮泰8連敗 立法院59：50否決財劃法覆議案
+                        </a>
+                    </div>
+                    <div class="card-snippet">立法院今上午召開全院委員會審查財劃法覆議案，並進行記名投票表決。這是行政院長卓榮泰任內第8次提復議案，稍早在藍白席次多數...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:56</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6656/9183969" target="_blank" rel="noopener noreferrer">
+                            公督盟籲國民黨團撤回「助理費除罪化」
+                        </a>
+                    </div>
+                    <div class="card-snippet">國民黨立委陳玉珍提出「立法院組織法修正草案」，將立委助理費除罪化，此案日前在立法院會交付委員會審查。公督盟等團體今天舉行...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:56</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/10930/9183947" target="_blank" rel="noopener noreferrer">
+                            陸海軍、海警艦艇東亞海域集結…府：賴總統請國安掌握 安全無虞
+                        </a>
+                    </div>
+                    <div class="card-snippet">路透報導，中國正在東亞海域部署大量海軍和海警艦艇，數量一度高達逾百艘。這項海上軍力展示規模之大創歷來之最。總統府發言人郭...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:51</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6656/9183940" target="_blank" rel="noopener noreferrer">
+                            接見日台協會會長 卓揆歡迎日本藝人來台表演：一定滿場
+                        </a>
+                    </div>
+                    <div class="card-snippet">行政院長卓榮泰今天接見來台參加台日經貿會議的日本台灣交流協會會長隅修三一行。卓榮泰表示，日本首相高市早苗日前對台海地區穩...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:48</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6656/9183924" target="_blank" rel="noopener noreferrer">
+                            卓榮泰提8次覆議案 今再吞敗 傅崐萁：早應該下台
+                        </a>
+                    </div>
+                    <div class="card-snippet">立法院會今開全院委員會，處理行政院日前針對立法院通過的新版「財政收支劃分法」所提出的覆議案，此為行政院長卓榮泰任內第8度...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:45</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6656/9183937" target="_blank" rel="noopener noreferrer">
+                            柯文哲批賴總統通匪 總統府：不評論情緒性發言
+                        </a>
+                    </div>
+                    <div class="card-snippet">賴清德總統接受紐約時報「交易錄峰會」（DealBook Summit）視訊專訪表示，台灣很樂意幫助中國、共同合作，來解決...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:45</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124671/9183630" target="_blank" rel="noopener noreferrer">
+                            刑事局對小紅書祭封鎖令 凌濤：綠、紅共攜手建網路長城
+                        </a>
+                    </div>
+                    <div class="card-snippet">刑事警察局對小紅書祭出網際網路停止解析及限制接取之命令。示意圖：翻攝自App Store 經刑事警察局統計，「小紅書」APP自去(113)年迄今已涉入1706件詐騙案件，造成財損達2億4768萬餘元，</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:41</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124671/9183895" target="_blank" rel="noopener noreferrer">
+                            【重磅快評】要翻牆的 豈止是小紅書的用戶
+                        </a>
+                    </div>
+                    <div class="card-snippet">台灣從開放走向封閉 ，人民要翻越層層高牆，豈止是小紅書的用戶而已。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:36</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/10930/9183892" target="_blank" rel="noopener noreferrer">
+                            路透揭陸在東亞集結百艘船艦 總統府：國安單位完整掌握
+                        </a>
+                    </div>
+                    <div class="card-snippet">路透社報導，中國大陸正在東亞海域部署大量解放軍與海警艦艇，一度超過100艘，為迄今最大規模的海上軍事展示，遠超出其國防需...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:33</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6656/9183891" target="_blank" rel="noopener noreferrer">
+                            政院8度提覆議！黃國昌：卓榮泰已不適任 賴清德還留是因臉皮厚
+                        </a>
+                    </div>
+                    <div class="card-snippet">行政院日前針對立法院通過的新版「財政收支劃分法」提出覆議，已是行政院長卓榮泰任內第8度提覆議。對此，民眾黨主席黃國昌說，...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:33</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6656/9183807" target="_blank" rel="noopener noreferrer">
+                            為財劃法爭議槓上了！劉和然加猛力道批蘇巧慧「出賣糟蹋新北」
+                        </a>
+                    </div>
+                    <div class="card-snippet">財政收支劃分法爭議未解，新北市副市長劉和然連日與代表民進黨參選新北市長的立委蘇巧慧槓上，劉今日再度發文抨擊，蘇巧慧委員總...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:06</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/6656/9183803" target="_blank" rel="noopener noreferrer">
+                            財劃法覆議案不邀卓揆說明 鍾佳濱：藍白縮頭烏龜、國會蒙塵
+                        </a>
+                    </div>
+                    <div class="card-snippet">立法院今上午召開全院委員會審查財劃法覆議案，未邀行政院長卓榮泰列席說明，各黨團各推派一人發言，並繼續院會進行記名投票表決...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:04</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/124671/9183792" target="_blank" rel="noopener noreferrer">
+                            反詐禁小紅書 黃國昌：台灣民主沈淪到要學中國大陸？
+                        </a>
+                    </div>
+                    <div class="card-snippet">內政部刑事局昨指大陸社交及網購平台「小紅書」涉詐，要求提出改善未果，加上國安局認定小紅書資安檢測不合格，封鎖小紅書一年。...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合頭條</span>
+                    <span class="timestamp">2025-12-05 11:01</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512050044.aspx" target="_blank" rel="noopener noreferrer">
+                            川普政府與日協調台灣議題　薛瑞福：傾向多做少說
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者鍾佑貞華盛頓4日專電）中國強烈反制日本首相高市早苗「台灣有事」言論。美國前官員薛瑞福今天談到美方立場時指出，美國與日本協調台灣相關議題時，傾向「多做、少說」。例如日本在鄰近台灣的地區部署飛彈，即使不明說，戰略意涵已相當清楚。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-05 10:13</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512050037.aspx" target="_blank" rel="noopener noreferrer">
+                            中共19機艦台海周邊活動　國軍嚴密監控應處
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳書緯台北5日電）國防部今天指出，自昨天上午6時至今天上午6時，偵獲14架次共機，其中8架次逾越海峽中線進入北部及西南空域，並偵獲共艦5艘，總計中共19機艦持續在台海周邊活動，國軍嚴密監控與應處。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-05 09:31</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512050030.aspx" target="_blank" rel="noopener noreferrer">
+                            專家籲美派專員駐台　強化能源韌性合作應對中共威脅
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者侯姿瑩華盛頓4日專電）台灣面臨中共封鎖風險，華府智庫專家今天表示，美台應考慮加強能源韌性方面的合作，美國應讓能源部、核子管理委員會等單位人員輪流進駐台灣；除了要確保自由社會免受武力脅迫，也必須讓能源系統免遭破壞。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-05 09:06</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aloc/202512040392.aspx" target="_blank" rel="noopener noreferrer">
+                            小孩遭控霸凌　賴瑞隆盼還原事情經過、全力配合學校
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社台北4日電）民進黨立委、高雄市長參選人賴瑞隆今天透過辦公室發表聲明表示，對於自己8歲、就讀國小二年級的小孩，在學校與同學發生的糾紛，作為家長也希望儘快還原事情經過，會全力配合學校的後續工作。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 22:51</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040389.aspx" target="_blank" rel="noopener noreferrer">
+                            卓榮泰：促民間友善近用促轉基金　強化民主韌性
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者賴于榛台北4日電）行政院長卓榮泰今天主持推動轉型正義會報會議，他在會中表示，政院將整合各部會落實「促進轉型正義基金策略計畫」，依法發揮基金最大效益、強化民主韌性，更要透過友善民間近用機制，促進民間力量共同合作，友善近用促轉基金。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 22:33</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040387.aspx" target="_blank" rel="noopener noreferrer">
+                            與黃國昌直播談2026藍白合　柯文哲：規則講清楚就好
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者郭建伸台北4日電）前民眾黨主席柯文哲今天久違直播，並與現任民眾黨主席黃國昌對談。席間談及2026藍白合，柯文哲說，規則講清楚就好，第一是全民調有幾間民調公司，第二是不要再讓3%或6%，並強調民眾黨一定不會耍詐。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 22:19</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040381.aspx" target="_blank" rel="noopener noreferrer">
+                            總統紐時論壇專訪　學者：傳達台灣會負起自我防衛責任
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者溫貴香台北4日電）總統賴清德日前接受「交易錄峰會」論壇專訪，學者今天指出，總統此舉是藉由轉變溝通策略、擁抱多元群體展開對話，向美國民眾與國際社會，傳達台灣不是「安全依賴者」，台灣的政治領導者會「竭盡所能」負起自我防衛責任，並負責任管理台海與兩岸關係。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 21:57</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040375.aspx" target="_blank" rel="noopener noreferrer">
+                            瑞典駐台代表盼與台深化能源合作　共同邁向淨零未來
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳書緯台北4日電）為推動瑞典與台灣在能源領域合作，瑞典駐台代表任荷雅今天表示，瑞典期待在能源與永續領域與台灣展開更全面且深化的合作，共同邁向淨零未來。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 21:38</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040374.aspx" target="_blank" rel="noopener noreferrer">
+                            馬士元：LINE下架逾7萬詐騙帳號　有示範效果
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者賴于榛台北4日電）行政院打擊詐欺指揮中心今天指出，LINE今年7月協助執法機關查證，並下架累計約7.3萬個詐騙帳號。打詐指揮中心馬士元指揮官對此表示，LINE的協助，將對整個社會有非常正面的示範效果。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 21:34</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040354.aspx" target="_blank" rel="noopener noreferrer">
+                            與谷力哲會面　鄭麗文：兩岸應學習歐盟和解精神
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者劉冠廷台北4日電）國民黨主席鄭麗文與歐洲經貿辦事處處長谷力哲會面，鄭麗文表示，歐盟的經驗與價值有相當多值得台灣學習借鑑之處，歐洲統合的經驗是人類智慧結晶，兩岸應該學習歐盟的精神，透過創新方式尋求和解。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 20:31</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040343.aspx" target="_blank" rel="noopener noreferrer">
+                            陳明祺歡迎葡萄牙國會議員訪團　感謝對台堅定支持
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳書緯台北4日電）外交部政務次長陳明祺3日晚宴歡迎葡萄牙跨黨派國會議員訪問團，感謝葡萄牙國會議員在今年國會改選後，以具體行動展現對台灣的堅定支持。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 20:03</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040337.aspx" target="_blank" rel="noopener noreferrer">
+                            現任村里長65歲且做滿6屆　可申請30萬慰勞金
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者賴于榛台北4日電）內政部今天表示，已發布相關辦法，現任村里長任職滿6屆且年滿65歲者，明年1月起可依規定向最後任職的鄉、鎮、市、區公所申請一次慰勞金新台幣30萬元，初步統計有557位村里長符合資格，經費總計1.6億元，地方政府已將經費編入明年度預算。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 19:40</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040334.aspx" target="_blank" rel="noopener noreferrer">
+                            外交部與衛福部　共推榮邦計畫深化醫療外交
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳書緯台北4日電）外交部指出，外交部與衛福部昨天召開「醫療衛生外交諮詢小組」第二次會議，並首次邀請經濟部參與，共同整合跨部會資源，由外交部長林佳龍與衛福部長石崇良共同主持會議，就深化「榮邦計畫」與強化國際醫衛合作進行深入討論。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 19:32</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040332.aspx" target="_blank" rel="noopener noreferrer">
+                            台日經貿會議簽數位貿易協議　經貿辦：確保合作韌性
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳書緯台北4日電）第49屆台日經濟貿易會議今天在台北舉行，台日雙方簽署「地區海關合作備忘錄」及「台日數位貿易協議」。行政院經貿談判辦公室執行秘書徐崇欽表示，藉由協議訂定更全面的數位貿易規範，確保數位貿易合作的韌性與前瞻性。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 19:30</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aipl/202512040304.aspx" target="_blank" rel="noopener noreferrer">
+                            內政部偕宮廟宣講安全手冊　防災士培訓擬納後備軍人
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者游凱翔台北4日電）為強化「台灣全民安全指引」手冊及防災士宣導，內政部今天表示，9日起將在全台16間著名宮廟舉行手冊宣講會，同時與國防部討論明年起規劃將後備軍人納入防災士培訓對象，目標是「先普及、再分級」。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社政治</span>
+                    <span class="timestamp">2025-12-04 18:27</span>
+                </div>
+            </article>
+            
+</div>
+</section>
+<section class='category'>
+<h2 class='category-title'>💻 科技新知</h2>
+<div class='grid'>
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40206-little-red-book-has-banned-by-twnic-for-a-year" target="_blank" rel="noopener noreferrer">
+                            內政部令小紅書暫封鎖 1 年，TWNIC：依法啟動屏蔽措施
+                        </a>
+                    </div>
+                    <div class="card-snippet">因應小紅書 APP 涉入多起詐騙案，內政部依《詐欺犯罪危害防制條例》發布命令，由 TWNIC 啟動 DNS RPZ 技術措施，停止其網域解析並限制接取，為期一年。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-05 11:58</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172650" target="_blank" rel="noopener noreferrer">
+                            Nvidia修補DGX Spark重大漏洞，可能導致AI系統遭接管
+                        </a>
+                    </div>
+                    <div class="card-snippet">Nvidia針對桌上型AI超級電腦DGX Spark，在11月21日發布安全更新，修補14項資安漏洞，影響Nvidia DGX Spark GB10晶片的SROOT、OSROOT等核心模組。建議用戶立即更新作業系統版本，以防止潛在攻擊。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-05 11:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172651" target="_blank" rel="noopener noreferrer">
+                            多組中國駭客從事React伺服器元件滿分漏洞利用活動
+                        </a>
+                    </div>
+                    <div class="card-snippet">12月3日React開發團隊公布伺服器元件的滿分漏洞CVE-2025-55182（React2Shell），並表示只要用戶的應用程式支援React伺服器元件，就可能曝險，如今傳出駭客已試圖利用漏洞的情況。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-05 10:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172648" target="_blank" rel="noopener noreferrer">
+                            Windows 10 PC還有近十億臺
+                        </a>
+                    </div>
+                    <div class="card-snippet">Windows 10在今年10月14日終止技術支援，但PC業者相信，全球還有將近10億臺PC仍然停留在Windows 10上。 上周在今年第三季財報會議上，戴爾電腦營運長Jeffrey Clarke認為Windows 11 PC前景樂觀。他估計全球還有5億臺Windows10 P...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-05 08:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/article/172649" target="_blank" rel="noopener noreferrer">
+                            13億AI員工怎麼管？
+                        </a>
+                    </div>
+                    <div class="card-snippet">IDC預測，3年後全球將有13億個AI代理，分散在各式各樣的工作職場中。如何管理，如何追蹤？如何避免影子AI氾濫，微軟在年末產品大會中，提出了一個新思維，將AI代理視為數位員工來管理，從數位勞動力管理來落實全面性的AI治理，這也成了微軟AI代理戰略的新方向。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-05 08:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172646" target="_blank" rel="noopener noreferrer">
+                            殭屍網路Aisuru再度發動大規模DDoS攻擊，29.7 Tbps創紀錄
+                        </a>
+                    </div>
+                    <div class="card-snippet">Cloudflare發布2025年第三季DDoS威脅報告指出，殭屍網路Aisuru在本季持續升級攻擊火力，以最高29.7 Tbps流量與14.1 Bpps封包率創下新紀錄。Cloudflare估計，Aisuru掌控約100萬至400萬臺受感染主機，幾乎每天發動多起超過1 Tbps...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-05 08:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172641" target="_blank" rel="noopener noreferrer">
+                            【瞄準3年後13億AI代理的規模化需求】微軟AI代理戰略大升級，從開發工具延伸到全企業AI治理
+                        </a>
+                    </div>
+                    <div class="card-snippet">「13億個AI代理！」這是了解微軟AI代理戰略藍圖，最關鍵的一個數字。 今年是AI代理浪潮爆發的一年，科技巨頭紛紛聚焦AI代理展開新的戰略和產品布局，微軟也不例外。但是，微軟AI代理戰略更聚焦於未來全球大規模採用後，所需要的技術和能力。全球AI代理應用規模有多大，微軟委託分析機構...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-05 06:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/voice/172640" target="_blank" rel="noopener noreferrer">
+                            2025生成式AI現況回顧
+                        </a>
+                    </div>
+                    <div class="card-snippet">生成式AI的普及，帶來許多機會，也迫使所有工作者思考目前的作業模式，是否還有繼續維持不變的意義，受到影響的範圍，不只是文字與影像相關內容製作的產業與職業，現在就連軟體開發人員，都面臨極大的挑戰。 11月底知名IT技術部落格《黑暗執行緒》的站長，有感而發地在臉書貼文感慨此事，起因之...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-05 06:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40205-aws-chip-chief-nafea-bshara-reveals-deep-taiwan-supply-chain-relationships" target="_blank" rel="noopener noreferrer">
+                            與魏哲家「見面必擁抱」！AWS 晶片掌門人 Nafea Bshara 揭台鏈深厚關係
+                        </a>
+                    </div>
+                    <div class="card-snippet">作為 AWS 自制晶片掌舵者，Nafea Bshara 不僅暢談了 AWS 當家 AI 晶片 Trainium 的發展路徑路，也公開說明了 AWS 與台灣供應鏈的深厚關係。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-05 05:23</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40204-aws-graviton-5-cpu" target="_blank" rel="noopener noreferrer">
+                            AWS 發表自研最新 CPU Graviton 5！3 奈米製程效能增 25%
+                        </a>
+                    </div>
+                    <div class="card-snippet">Graviton 5 單晶片配備 192 個核心，創下 Amazon EC2 處理器的最多紀錄，可以縮短核心間的資料傳輸距離，讓通訊延遲大幅降低 33%。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-05 01:50</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512040397.aspx" target="_blank" rel="noopener noreferrer">
+                            視覺化規劃工具Timo　獲選蘋果年度iPhone App
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳家豪台北4日電）蘋果公司（Apple）今天公布2025年App Store Awards獲獎名單，表揚17款展現技術巧思並帶來長久文化影響力的App和遊戲，年度iPhone App為視覺化規劃工具「Timo」，幫助神經多樣性使用者（例如自閉特質）簡化計畫並提高專注力...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 23:05</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512040390.aspx" target="_blank" rel="noopener noreferrer">
+                            TASA授權首家台廠　原相科技銷售太空規光學元件
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者趙敏雅台北4日電）國家太空中心（TASA）今天表示，透過光學酬載深耕計畫扶植5家台廠，12月初原相科技成為取得TASA太空規技術授權的首家廠商，可望做為推動台灣光學產業邁向太空應用市場的敲門金磚。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 22:37</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40201-apple-app-store-awards" target="_blank" rel="noopener noreferrer">
+                            【App Store Awards】助 ADHD、自閉症者做好工作與生活規劃！《Tiimo》獲年度 iPhone app 獎
+                        </a>
+                    </div>
+                    <div class="card-snippet">特別的是，《Tiimo》是專為神經多樣性使用者（例如 ADHD、自閉症或其他大腦運作模式較一般人不同的族群）所設計，可以透過 AI 分析情緒與健康數據降低規劃一事所帶來的認知負擔，更運用了小工具「將時間視覺化」，幫助使用者可以在效率、心理健康兩方面都達到平衡、相互支援。不過，ti...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-04 22:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40200-spotify-2025-wrapped" target="_blank" rel="noopener noreferrer">
+                            Spotify 2025 年度回顧出爐：快來看看你今年都聽了些什麼？
+                        </a>
+                    </div>
+                    <div class="card-snippet">Spotify 2025 年度回顧「Wrapped」轉型為全球慶典。結合線上數據與線下實體活動，強調互動共享，推出粉絲據點與跨界合作，將個人回顧化為真實社群派對。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-04 18:41</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40202-line-pay-money" target="_blank" rel="noopener noreferrer">
+                            LINE Pay Money 正式上線！分手一卡通有哪些影響？註冊、手續費、優惠總整理
+                        </a>
+                    </div>
+                    <div class="card-snippet">LINE Pay 與一卡通 2026 年正式分家！超過 1300 萬用戶受影響，iPASS MONEY 餘額需在年底前提領。LINE Pay Money 重新開通享三年零手續費。本文完整解析分家原因、資產轉移步驟、手續費優惠方案，以及對台灣電子支付市場的深遠影響。幫助你無痛轉換、...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-04 18:07</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512040291.aspx" target="_blank" rel="noopener noreferrer">
+                            NBA開發AI指標「槓桿分數」　量化球員關鍵時刻貢獻
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳家豪拉斯維加斯4日電）在美國職籃NBA比賽關鍵時刻投進致勝一擊，往往成為頭條新聞，但一次關鍵防守籃板或抄截，又該如何計算對勝負的影響力。NBA正與雲端大廠AWS合作，透過AI技術開發全新的「槓桿分數」，不再只看單純得分數據，而是量化球員在關鍵時刻對球隊勝率的真實貢獻...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 18:04</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40199-ford-nomenclature-specialist" target="_blank" rel="noopener noreferrer">
+                            福特開出「特別」的職缺，找人專門幫車子「取名字」
+                        </a>
+                    </div>
+                    <div class="card-snippet">Ford 新設「命名專員」職位，旨在為旗下產品與服務建立系統性命名策略。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-04 18:04</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40197-trumps-new-fuel-economy-rollback-could-bring-higher-costs-and-stall-us-ev-adoption" target="_blank" rel="noopener noreferrer">
+                            川普新一波的油耗鬆綁，恐讓美國車市迎來更高油費與電動化倒退
+                        </a>
+                    </div>
+                    <div class="card-snippet">美國提案大幅放寬油耗標準並廢除積分交易，雖降低車廠合規成本，但預期將增加消費者燃油支出與碳排，恐延緩電動車發展，影響美國市場的全球競爭力。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-04 18:01</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://technews.tw/2025/12/04/wasp-107b-exoplanet-2/" target="_blank" rel="noopener noreferrer">
+                            系外行星 WASP-107b「洩氣」中，逃逸氣體延伸行星半徑 10 倍
+                        </a>
+                    </div>
+                    <div class="card-snippet">系外行星 WASP-107b 的失控大氣正瘋狂逸散到太空，據韋伯太空望遠鏡新觀察，從 WASP-107b 大量 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 17:23</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://technews.tw/2025/12/04/nba-aws/" target="_blank" rel="noopener noreferrer">
+                            精彩火鍋還是妨礙中籃？NBA 導入生成式 AI 避免誤判
+                        </a>
+                    </div>
+                    <div class="card-snippet">NBA 球星上籃遭到封阻，究竟是精彩火鍋還是妨礙中籃，這類發生在瞬間的判決往往引發球迷與裁判的激烈爭論。在今年 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 17:15</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://infosecu.technews.tw/2025/12/04/korean-coupang-personal-data-leak/" target="_blank" rel="noopener noreferrer">
+                            韓國酷澎個資外洩陷爭議，被爆招募大量中國員工
+                        </a>
+                    </div>
+                    <div class="card-snippet">韓國酷澎近期爆發大規模個資外流事件，此次事件的嫌疑人被指為中國籍前員工，今天也有韓國媒體報導，韓國酷澎內部因成 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 17:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://technews.tw/2025/12/04/year-in-search-2025/" target="_blank" rel="noopener noreferrer">
+                            Google 公開台灣年度熱搜關鍵字，Gemini、大罷免、大 S 等上榜
+                        </a>
+                    </div>
+                    <div class="card-snippet">今年當你點開 Google 搜尋欄時，心裡想的是什麼？那些輸入搜尋欄的關鍵字往往透露你的需求和心情。透過 Go […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:54</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://finance.technews.tw/2025/12/04/openai-acquired-neptune/" target="_blank" rel="noopener noreferrer">
+                            OpenAI 同意收購 Neptune，強化 AI 模型訓練
+                        </a>
+                    </div>
+                    <div class="card-snippet">ChatGPT 開發商 OpenAI 3 日表示，同意收購新創公司 Neptune。這家公司提供工具以幫助企業 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:50</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://technews.tw/2025/12/04/ukrainian-attack-on-russian-oil-tanker-pushes-oil-prices-up/" target="_blank" rel="noopener noreferrer">
+                            俄烏和談再陷僵局  烏軍襲擊俄油輪、油價走高
+                        </a>
+                    </div>
+                    <div class="card-snippet">俄烏和平談判再陷僵局，俄羅斯總統普丁甚至放話「已準備好和歐洲開戰」。烏克蘭無人機近期襲擊俄羅斯油輪，使緊張情勢 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:45</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://finance.technews.tw/2025/12/04/lulym-t-cde/" target="_blank" rel="noopener noreferrer">
+                            迎 2026 再生醫療元年！路迦生醫肝癌新藥有望取得第一批臨時藥證
+                        </a>
+                    </div>
+                    <div class="card-snippet">「2025 台灣醫療科技展」今日在南港展覽館登場，路迦生醫董事長唐稚超表示，迎接 2026 再生醫療元年，目前 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:42</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://finance.technews.tw/2025/12/04/ifa-ceo-leif-lindner/" target="_blank" rel="noopener noreferrer">
+                            IFA 執行長親自來台招商：盼台技術被看見
+                        </a>
+                    </div>
+                    <div class="card-snippet">全球家電暨消費科技盛會 IFA Berlin 對台灣釋出前所未有的積極訊號。IFA Management Gm […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:39</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://finance.technews.tw/2025/12/04/nuclear-firms-will-get-cash-from-trump-administration/" target="_blank" rel="noopener noreferrer">
+                            川普政府振興核能直接發現金補貼  GEV、BWXT 受惠
+                        </a>
+                    </div>
+                    <div class="card-snippet">希望重新振興美國核能產業的川普政府，現在展開下一步行動，也就是向核子反應爐計畫直接發放現金補貼。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:30</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://technews.tw/2025/12/04/the-royal-navy-confired-the-new-stratus-lo-will-be-equipped-on-type-26s/" target="_blank" rel="noopener noreferrer">
+                            英國海軍新長程武器公開，「層雲」匿蹤巡弋飛彈將裝備 26 型巡防艦
+                        </a>
+                    </div>
+                    <div class="card-snippet">在近日舉行的 2024 歐洲海軍展（Euronaval 2024）上，英國皇家海軍公開了未來的關鍵打擊能力，新 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:24</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://finance.technews.tw/2025/12/04/hdmi-cat-4/" target="_blank" rel="noopener noreferrer">
+                            搶攻 AI 連接器商機！驊陞科技 12/5 以底價 32 元競價拍賣
+                        </a>
+                    </div>
+                    <div class="card-snippet">驊陞科技為配合初次上市前公開承銷作業，辦理現金增資發行新股，對外公開承銷總共 8,190 張，其中 6,552 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:20</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512040220.aspx" target="_blank" rel="noopener noreferrer">
+                            精彩火鍋還是妨礙中籃？NBA導入生成式AI避免誤判
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳家豪拉斯維加斯3日電）NBA球星上籃遭到封阻，究竟是精彩火鍋還是妨礙中籃，這類發生在瞬間的判決往往引發球迷與裁判的激烈爭論。在今年AWS re:Invent年度雲端運算大會上，NBA高層狄吉納羅罕見現身受訪，他透露NBA正導入生成式AI技術，要在幾毫秒內還原真相，避...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 16:18</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://finance.technews.tw/2025/12/04/japan-copper-prices-up-30-this-year/" target="_blank" rel="noopener noreferrer">
+                            日本銅價續揚、刷新歷史新高  今年來漲 3 成
+                        </a>
+                    </div>
+                    <div class="card-snippet">反映國際價格、匯率變動，做為日本國內銅交易價格指標的 JX 金屬（JX Advanced Metals）持續調 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:15</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://technews.tw/2025/12/04/the-prosecutions-indictment-of-tels-taiwan-subsidiary-suggests-the-impact-is-manageable/" target="_blank" rel="noopener noreferrer">
+                            外資指檢方起訴 TEL 台灣子公司衝擊可控，還解除市場疑慮給優於大盤評價
+                        </a>
+                    </div>
+                    <div class="card-snippet">針對台灣檢方起訴日本半導體設備製造大廠東京威力科創（TEL）台灣子公司涉及竊取台積電 2 奈米先進製程資料一案 […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://finance.technews.tw/2025/12/04/these-two-space-stocks-could-rise-70-percent-as-government-work-heats-up/" target="_blank" rel="noopener noreferrer">
+                            太空探索商 LUNR、RKLB 前景俏？NASA、金穹助攻
+                        </a>
+                    </div>
+                    <div class="card-snippet">太空探索前景看俏，分析人士列出兩檔遭低估的概念股，認為隨著美國政府下單量增加，股價接下來還有大漲的空間。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 16:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://technews.tw/2025/12/04/aws-s3-storage-service-upgrade/" target="_blank" rel="noopener noreferrer">
+                            告別關鍵字搜尋，AWS S3 儲存服務升級讓 AI 更懂人話
+                        </a>
+                    </div>
+                    <div class="card-snippet">過去在大量數據中找資料，往往只能依賴精準關鍵字，但在生成式 AI 時代，儲存服務正面臨重大變革。亞馬遜旗下 A […]</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">TechNews</span>
+                    <span class="timestamp">2025-12-04 15:45</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512040161.aspx" target="_blank" rel="noopener noreferrer">
+                            告別關鍵字鍵盤搜尋　Amazon S3服務升級讓AI更懂人話
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳家豪拉斯維加斯3日電）過去在大量數據中找資料，往往只能依賴精準關鍵字，但在生成式AI時代，儲存服務正面臨重大變革。亞馬遜旗下AWS宣布S3雲端物件儲存服務導入向量功能，讓AI能真正理解數據的語意，不僅能聽懂「人話」，更能協助企業節省90%的AI索引成本。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 14:25</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512040156.aspx" target="_blank" rel="noopener noreferrer">
+                            BMW設2035減碳新目標　歐盟燃油車禁令傳有轉圜
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社柏林3日綜合外電報導）德國汽車製造商BMW在原本2050年達標淨零的長期願景內設立新的期中目標，表示會先在2035年底前做到將公司的碳排當量相較2019年，減低至少6000萬公噸。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 14:18</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40198-from-kaohsiung-metro-to-singapore-testbed-siemens-mobility-ceo-discusses-the-cloud-based-signaling-x-system" target="_blank" rel="noopener noreferrer">
+                            從高雄捷運到新加坡試驗場，西門子交通執行長談雲端訊號系統 Signaling X
+                        </a>
+                    </div>
+                    <div class="card-snippet">雖然相較於其他領域，鐵路的發展進程是比較緩慢，但透過 Siemens Mobility 新發表的 Signaling X 平台，鐵路也進入「雲端化」的階段了。未來捷運、台鐵若能導入這套系統，對於安全、效率應該多有幫助。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-04 14:16</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172628" target="_blank" rel="noopener noreferrer">
+                            React 19伺服端元件出現RCE零驗證漏洞，波及Next.js等多個框架
+                        </a>
+                    </div>
+                    <div class="card-snippet">React團隊公開React 19伺服器端元件（Server Components）出現未經驗證遠端程式碼執行漏洞，編號CVE-2025-55182，官方評為CVSS10分的最高危險等級。該漏洞來自React伺服器端元件所使用的Flight通訊協定，牽連React19生態系的多項...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-04 12:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.inside.com.tw/article/40195-aws" target="_blank" rel="noopener noreferrer">
+                            AWS CEO Matt Garman 於 re:Invent 的主題演講：掌握重大發布與關鍵洞察 AWS 重新塑造雲端技術未來：四大核心要素與領先 Agent
+                        </a>
+                    </div>
+                    <div class="card-snippet">AWS re:Invent 大會聚焦 AI Agent，發表 Amazon Nova2 模型與三大前沿 Agent。此舉透過全棧式創新，旨在鞏固雲端及 AI 領導地位，助企業提升效率。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Inside</span>
+                    <span class="timestamp">2025-12-04 10:27</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512040048.aspx" target="_blank" rel="noopener noreferrer">
+                            輝達新一代AI伺服器效能提升10倍　中國熱門模型受益
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社舊金山3日綜合外電報導）輝達公司（Nvidia）今天公布最新數據，顯示其新一代人工智慧（AI）伺服器能讓中國兩款熱門模型在內的新型AI模型效能提升10倍。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 10:07</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512040040.aspx" target="_blank" rel="noopener noreferrer">
+                            AWS副總裁：建構代理式AI　比它們要解決的問題更難
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳家豪拉斯維加斯3日電）亞馬遜旗下雲端服務供應商AWS今天發表代理式人工智慧（Agentic AI）新技術，AWS副總裁西瓦蘇布拉曼尼恩說，代理式AI大幅加速從創意到發揮影響力的過程，但建構和擴展這些驚人的代理系統，比它們試圖解決的問題本身更困難。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 09:47</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172647" target="_blank" rel="noopener noreferrer">
+                            已導入4大科別！臺北榮總揭GenAI智慧病歷助手，接下來要發展臨床決策輔助
+                        </a>
+                    </div>
+                    <div class="card-snippet">在今年度醫療科技展首日，臺北榮總展示一款生成式AI智慧病歷助手，不只跨系統整合資料，還能快速產出入院病摘、病程紀錄、出院病摘草稿，供醫師撰寫病歷使用。北榮也在今年10月，將這個AI助手正式導入醫院4大科別，包括內科、外科、兒科和婦產科，接下來要擴大到其他科別和臨床應用情境，旨在全...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-04 06:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/aopl/202512040013.aspx" target="_blank" rel="noopener noreferrer">
+                            NASA署長提名人確認聽證 誓加快重返月球阻中國超車
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社華盛頓3日綜合外電報導）美國總統川普兩度提名出任國家航空暨太空總署（NASA）署長的艾薩克曼在今天的聯邦參議院確認聽證會上表示，他的目標，是讓美國在重返月球的競賽中擊敗競爭對手中國。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-04 06:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172644" target="_blank" rel="noopener noreferrer">
+                            【資安日報】12月4日，華碩傳出供應商遭駭，外流手機相機軟體開發資料
+                        </a>
+                    </div>
+                    <div class="card-snippet">華碩的一家供應商遭駭，駭客可能竊取包含相機原始碼在內的1 TB內部資料</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-04 05:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172645" target="_blank" rel="noopener noreferrer">
+                            小紅書成詐騙高風險平臺且不配合國內偵查，內政部祭出網路停止解析及限制接取一年處分
+                        </a>
+                    </div>
+                    <div class="card-snippet">小紅書App在臺灣已有超過300萬用戶，內政部今天(12/4)指出，小紅書從2024年至今已有涉詐案件1,706件，財損約達2.4億元，其母公司位於中國上海，基於未配合國內檢警偵辦案件，內政部依「詐欺犯罪危害防制條例」第42條，即日起對小紅書進行網際網路停止解析、限制接取，處置期...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-04 05:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172643" target="_blank" rel="noopener noreferrer">
+                            假會議濫用Calendly平臺，駭客冒充知名品牌誘騙Google與Facebook廣告管理員帳號
+                        </a>
+                    </div>
+                    <div class="card-snippet">最近兩年，網路釣魚攻擊手法多半以ClickFix為主，不過也有駭客利用會議安排為由，進行對手中間人攻擊（AiTM），意圖竊取Google Workspace和Facebook商業廣告管理帳號，過程裡他們假冒知名企業，並濫用名為Calendly的線上會議排程工具。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-04 04:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172642" target="_blank" rel="noopener noreferrer">
+                            華碩的一家供應商遭駭，駭客可能竊取包含相機原始碼在內的1 TB內部資料
+                        </a>
+                    </div>
+                    <div class="card-snippet">臺灣科技業者遭勒索軟體駭客攻擊的情況頻傳，鴻海旗下連接器製造商鴻騰精密（FIT）傳出一週前遭INC Ransom入侵，竊得AD環境的組態資料與其他內部檔案，這兩天又有駭客組織聲稱，他們取得另一家臺灣知名科技公司的機密資料。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-04 03:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172638" target="_blank" rel="noopener noreferrer">
+                            鳳凰城大學遭遇Oracle EBS零時差漏洞攻擊
+                        </a>
+                    </div>
+                    <div class="card-snippet">鳳凰城大學（University of Phoenix，UoPX）本周揭露發生Oracle E-Business(EBS)遭竊取資料的資安事件。 一如達特茅斯學院、賓州大學等學校，鳳凰城大學在甲骨文公司公告EBS漏洞後進行調查，因而發現資安事件，有未授權第三方人士濫用了Oracl...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-04 02:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.ithome.com.tw/news/172639" target="_blank" rel="noopener noreferrer">
+                            OpenAI宣布買下開發模型訓練分析工具的Neptune
+                        </a>
+                    </div>
+                    <div class="card-snippet">OpenAI周三（12/3）宣布，已與專門開發模型訓練分析工具的Neptune.ai達成正式收購協議，以強化支持前沿研究進展的工具及基礎設施。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">iThome</span>
+                    <span class="timestamp">2025-12-04 02:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512030324.aspx" target="_blank" rel="noopener noreferrer">
+                            台灣團隊首創AI隨動步行復健機器人　用意念控制行走
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者趙敏雅台北3日電）全球快速高齡化，行動健康面臨前所未有挑戰。在國科會支持下，台灣跨領域團隊歷時近10年打造出全球首創「AI隨動步行復健機器人」，透過腦波訊號驅動外骨骼，使中風及退化患者能「用腦走路」，讓患者從想走到能走，更快投入主動訓練，加速行動能力重建。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-03 18:37</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512030172.aspx" target="_blank" rel="noopener noreferrer">
+                            亞馬遜物流新科技　無人機精準投放、視覺引導1秒揀貨
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳家豪拉斯維加斯2日電）亞馬遜旗下AWS本週在美國拉斯維加斯舉辦re:Invent年度雲端運算大會，中央社記者實地走訪展區，直擊亞馬遜一系列物流新科技。其中，無人機宅配服務Prime Air標榜60分鐘送達，但部署前置作業不僅要「看天吃飯」，還需先通過社區民意這一關。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-03 14:59</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512030150.aspx" target="_blank" rel="noopener noreferrer">
+                            直擊亞馬遜無人計程車　AI想左轉要考慮數十億種路況
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳家豪拉斯維加斯2日電）走進雲端服務供應商AWS位於美國拉斯維加斯的先進技術展示區，一輛外型方正、充滿未來感的載具立刻抓住眾人目光，這正是亞馬遜旗下公司Zoox打造的無人計程車。不像人類開車左轉輕而易舉，AI開車要左轉時，考慮的是涉及數十億種可能的路況排列組合。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-03 14:14</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512030024.aspx" target="_blank" rel="noopener noreferrer">
+                            AWS首款3奈米自研晶片亮相　推AI工廠擴大與輝達合作
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者吳家豪拉斯維加斯2日電）雲端服務供應商AWS今天發表旗下首款由3奈米製程打造的自研人工智慧（AI）晶片Trainium 3，運算效能提升4.4倍，可協助企業以更低成本加速AI模型訓練；AWS另推出AI工廠，並宣布與輝達（NVIDIA）擴大合作，加速AI基礎設施部署。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-03 08:51</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512020279.aspx" target="_blank" rel="noopener noreferrer">
+                            印度國造第3艘核彈道飛彈潛艦最後試航  即將正式服役
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社記者李晉緯新德里2日專電）印度海軍參謀長特里帕蒂（Dinesh K Tripathi）今天表示，印度第3艘國造的核彈道飛彈潛艦（SSBN）「阿里達曼號」（INS Aridhaman）進入最後試航階段，完成後將正式服役。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-02 17:59</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.cna.com.tw/news/ait/202512010136.aspx" target="_blank" rel="noopener noreferrer">
+                            矽谷模式軍工吃癟？Anduril無人載具頻故障烏軍棄用
+                        </a>
+                    </div>
+                    <div class="card-snippet">（中央社華盛頓30日綜合外電報導）國防新創公司Anduril標榜科技新創圈特有的速度交付國防軟硬體，開啟軍備研發新時代。但文件顯示Anduril產品故障與安全問題頻傳，矽谷新創模式應用到軍工吃癟。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">中央社科技</span>
+                    <span class="timestamp">2025-12-01 14:15</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/123313/7092377" target="_blank" rel="noopener noreferrer">
+                            研調：ChatGPT帶動生成式AI軟體發展 未來商模瞄準B2B
+                        </a>
+                    </div>
+                    <div class="card-snippet">DIGITIMES研究中心分析黃耀漢觀察，ChatGPT熱潮帶動生成式AI市場快速增長，依數據庫業者Pitchbook資...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 11:10</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/123313/7092361" target="_blank" rel="noopener noreferrer">
+                            「ChatGPT到底是炒作還是未來趨勢？」 網友:強到令人害怕
+                        </a>
+                    </div>
+                    <div class="card-snippet">近日PTT八卦版上有鄉民提問「ChatGPT到底是炒作還是未來趨勢？！」引發熱烈討論，在該篇文章中，原PO表示剛好看到知...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 11:07</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7098/7092209" target="_blank" rel="noopener noreferrer">
+                            更真實蘋果iPhone 15 Pro模樣出爐！靜音鍵「有玄機」、充電孔是Type-C
+                        </a>
+                    </div>
+                    <div class="card-snippet">《聯合新聞網》日前整理出今（2023）年9月蘋果（Apple）將推出的iPhone 15七大亮點，日前大陸一名「抖音主」貼出iPhone 15 Pro外觀影片，發現「靜音按鍵」真的長不一樣了。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 10:20</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7088/7090607" target="_blank" rel="noopener noreferrer">
+                            AI成功「復活」已故親人！容貌重現、他與奶奶通電話畫面超感人
+                        </a>
+                    </div>
+                    <div class="card-snippet">一名網友透過AI技術將已故的奶奶以虛擬的方式重生，栩栩如生地講出故鄉的方言，並且以相當自然的語調和話語與網友互動，彷彿奶奶仍然還在人世。該網友透過不同的AI工具，重現奶奶的容貌、聲音、說話習慣等，讓人感覺彷彿奶奶「復活」了。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 09:26</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7086/7091831" target="_blank" rel="noopener noreferrer">
+                            「能永遠在一起！」蒐集過世親人數據 專家曝年底可做出複製機器人
+                        </a>
+                    </div>
+                    <div class="card-snippet">知名科幻美劇《黑鏡（Black Mirror）》中，主角將亡夫在社群媒體上的所有資料上傳到特殊網頁，而網頁上的AI就能模仿亡夫的語氣及說話習慣來跟主角互動...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 09:21</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7098/7089222" target="_blank" rel="noopener noreferrer">
+                            蘋果、三星、Google三款新機保值度揭曉！「它」二手慘打6折出售
+                        </a>
+                    </div>
+                    <div class="card-snippet">購買新手機時會擔心它不夠保值嗎？外媒引述二手交易平台統計數據，發現上市2個月後，蘋果（Apple）iPhone、三星（Samsung）及Google的Pixel新機中，保值度以...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:49</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/122659/7091350" target="_blank" rel="noopener noreferrer">
+                            Sony推出開放式專業監聽耳機MDR-MV1 擁360 Reality Audio空間音訊技術
+                        </a>
+                    </div>
+                    <div class="card-snippet">Sony稍早公布全新開放式專業監聽耳機MDR-MV1，其中納入Sony先前推廣許久的360 Reality Audio空間音訊技術，並且主打近期音樂市場主打空間音訊呈現效果製作時的專業監聽需求，同時也標榜能對應更顯著的空間聽感。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:45</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7086/7091348" target="_blank" rel="noopener noreferrer">
+                            好方便！這家推線上程式碼編輯器 只要建帳號就能免費用
+                        </a>
+                    </div>
+                    <div class="card-snippet">樹莓派基金會 (Raspberry Pi Foundation)近期宣布推出網頁版線上程式碼編輯器，並且以免費形式對外提供使用。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:43</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/122659/7091283" target="_blank" rel="noopener noreferrer">
+                            PC出貨量今年Q1下滑29% 蘋果Mac系列「更慘」
+                        </a>
+                    </div>
+                    <div class="card-snippet">依照市調機構Canalys、IDC統計數據顯示，PC出貨量在今年第一季出現29%-32.6%之間的跌幅，包含聯想、HP、Dell、蘋果、華碩在內業者的PC出貨量都出現24.1%-45.5%之間下滑情況。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:41</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7088/7091282" target="_blank" rel="noopener noreferrer">
+                            YouTube Premium增5功能更方便！可透過iOS「FaceTime」一起看影片
+                        </a>
+                    </div>
+                    <div class="card-snippet">Google稍早針對付費訂閱使用的YouTube Premium服務增加5項新功能，其中包含可讓iPhone、iPad使用者能利用FaceTime的SharePlay功能一同觀看相同YouTube影片。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:39</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7088/7091280" target="_blank" rel="noopener noreferrer">
+                            隨時都能玩3A級遊戲！Steam Deck超夯 出貨量破347萬台
+                        </a>
+                    </div>
+                    <div class="card-snippet">市調機構Omdia指出，Valve於2022年開放銷售的Steam Deck總計累積銷售162萬台，而在2023年至今則累積銷售185萬台，成長幅度達14%，總和則累積達347萬台。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:35</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/123313/7091275" target="_blank" rel="noopener noreferrer">
+                            對決ChatGPT！阿里巴巴推AI「通義千問」 驕傲喊：像工業革命一樣改變人類生活
+                        </a>
+                    </div>
+                    <div class="card-snippet">先前透露將公布自有大規模自然語言模型之後，阿里巴巴稍早在其2023阿里雲峰會正式公布名為「通義千問」的大規模自然語言模型，同時也強調未來阿里巴巴所有產品都將接入此模型，藉由人工智慧方式帶動更大變革。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:28</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7098/7091274" target="_blank" rel="noopener noreferrer">
+                            vivo直向摺疊手機X Flip 4月20日登場！還有vivo Pad 2平板
+                        </a>
+                    </div>
+                    <div class="card-snippet">日前透露將推出採用更大外部顯示螢幕的直向凹折手機X Flip之後，vivo稍早確認將在4月20日晚間7點揭曉新款螢幕可凹折手機，同時也會公布新款平板裝置vivo Pad 2。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:25</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/7086/7091271" target="_blank" rel="noopener noreferrer">
+                            蘋果將於印度啟用2家全新Apple Store 擴大在地辦公規模強化投資
+                        </a>
+                    </div>
+                    <div class="card-snippet">蘋果稍早預告將於印度開設兩間全新Apple Store，分別是預計在4月18日於孟買開幕的Apple BKC，以及接續在4月20日於德里開幕的Apple Saket，藉此象徵擴展印度市場。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:24</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://udn.com/news/story/122659/7091264" target="_blank" rel="noopener noreferrer">
+                            華為連推多款穿戴裝置 同步推出新款隨插即用路由器
+                        </a>
+                    </div>
+                    <div class="card-snippet">華為在稍早於台灣舉辦春季新品發表會接連公布新款穿戴裝置HUAWEI WATCH Ultimate、HUAWEI WATCH Buds、HUAWEI WATCH GT Cyber、FreeBuds 5，以及新款HUAWEI 4G CPE 3路由器。</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">聯合數位</span>
+                    <span class="timestamp">2023-04-12 08:22</span>
+                </div>
+            </article>
+            
+</div>
+</section>
+<section class='category'>
+<h2 class='category-title'>🇺🇸 English News (Global)</h2>
+<div class='grid'>
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-05/warner-bros-is-said-to-begin-exclusive-deal-talks-with-netflix" target="_blank" rel="noopener noreferrer">
+                            Warner Bros. Begins Exclusive Deal Talks With Netflix
+                        </a>
+                    </div>
+                    <div class="card-snippet">Warner Bros. Discovery Inc. has entered exclusive negotiations to sell its film and TV studios and HBO Max streaming service to Netflix Inc....</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 11:35</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/sofis-red-hot-stock-drops-after-plan-to-raise-1-5-billion-in-stock-offering-71f256aa?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            SoFi’s red-hot stock drops after plan to raise $1.5 billion in stock offering
+                        </a>
+                    </div>
+                    <div class="card-snippet">Shares of SoFi Technologies Inc. sank more than 6% in after-hours trading Thursday, after the fintech company announced plans for a $1.5 bil...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 11:31</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/videos/2025-12-05/the-asia-trade-12-5-2025-video" target="_blank" rel="noopener noreferrer">
+                            Asian Stock Rally Falters Ahead of US PCE Data | The Asia Trade 12/5/25
+                        </a>
+                    </div>
+                    <div class="card-snippet">&quot;Bloomberg: The Asia Trade&quot; brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 11:25</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/world/2025/dec/05/police-say-recovered-faberge-pendant-after-new-zealand-man-allegedly-swallowed-it" target="_blank" rel="noopener noreferrer">
+                            Patient police say they have recovered Fabergé pendant from man accused of swallowing it
+                        </a>
+                    </div>
+                    <div class="card-snippet">Six days after alleged incident, evidence emerges without requiring medical intervention, New Zealand police say Police say they have recove...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-05 10:41</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/world/2025/dec/05/baby-fur-seal-wanders-into-bar-in-new-zealand" target="_blank" rel="noopener noreferrer">
+                            Baby fur seal wanders into a bar in New Zealand
+                        </a>
+                    </div>
+                    <div class="card-snippet">The surprise visitor waddled around the pub during what’s known as ‘silly season’ where seals pop up in unexpected places On a wet, lazy Sun...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-05 10:18</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-05/taiwan-bans-china-s-rednote-app-for-a-year-citing-fraud-worries" target="_blank" rel="noopener noreferrer">
+                            Taiwan Bans China’s RedNote App for a Year, Citing Fraud Worries
+                        </a>
+                    </div>
+                    <div class="card-snippet">Taiwan said it was banning the Chinese app Xiaohongshu, also known as RedNote, due to fraud concerns — highlighting the democracy’s worries ...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 10:15</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/europe/putin-novichok-salisbury-skripal-poisoning.html" target="_blank" rel="noopener noreferrer">
+                            Amid Russian Sabotage, U.K. Points Finger at Putin Over Novichok Death
+                        </a>
+                    </div>
+                    <div class="card-snippet">A British woman died from exposure to a nerve agent because of a botched assassination plot that the Russian leader must have authorized, an...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 09:42</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/americans-affordability-crisis-isnt-tariffs-fault-its-something-much-much-deeper-9b74ccfb?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            Americans’ affordability crisis isn’t tariffs’ fault — it’s something much, much deeper
+                        </a>
+                    </div>
+                    <div class="card-snippet">Costs for the “Unaffordability Five” — housing, food, healthcare, child care and energy — were rising long before Trump’s trade war.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 09:39</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/the-stock-market-is-verging-on-a-holiday-breakout-taking-gold-and-silver-with-it-34469840?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            The stock market is verging on a holiday breakout — taking gold and silver with it
+                        </a>
+                    </div>
+                    <div class="card-snippet">If positive seasonality kicks in, investors can expect all-time highs before year-end.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 09:36</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cwyxjd6pxzro?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Admiral testified Hegseth did not give &#x27;kill them all&#x27; order, US lawmakers say
+                        </a>
+                    </div>
+                    <div class="card-snippet">The admiral who gave the order for a second strike on an alleged drug boat briefed lawmakers about the incident, as the military confirmed a...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 09:20</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/the-one-thing-people-are-still-buying-beauty-products-and-ulta-just-proved-it-3b7f0200?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            The one thing people are still buying? Beauty products, and Ulta just proved it.
+                        </a>
+                    </div>
+                    <div class="card-snippet">“Masstige” is winning even as consumers cut costs elsewhere.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 09:13</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/us/politics/trump-congo-rwanda-boat-strikes.html" target="_blank" rel="noopener noreferrer">
+                            Trump Trumpets Peace in Africa Amid War on Drug Boats, in Day of Dissonance
+                        </a>
+                    </div>
+                    <div class="card-snippet">President Trump presided over a Congo-Rwanda peace deal on the same day his administration was being questioned about potential war crimes.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 08:59</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/why-microsofts-controversial-openai-partnership-is-actually-a-safety-net-for-the-stock-bc2a408a?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            Why Microsoft’s controversial OpenAI partnership is actually a safety net for the stock
+                        </a>
+                    </div>
+                    <div class="card-snippet">Microsoft has offloaded OpenAI’s risks while keeping the benefits, making it the best Big Tech AI play, according to one analyst</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 08:30</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/this-analysts-top-chip-pick-isnt-flashy-but-it-could-benefit-from-unprecedented-momentum-62748538?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            This analyst’s top chip pick isn’t flashy, but it could benefit from ‘unprecedented’ momentum
+                        </a>
+                    </div>
+                    <div class="card-snippet">Applied Materials should benefit from upcycles in both the DRAM and leading-edge foundry industries, TD Cowen says</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 08:27</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/even-paramount-now-thinks-netflix-is-winning-the-bidding-war-for-warner-bros-discovery-916afac0?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            Even Paramount now thinks Netflix is winning the bidding war for Warner Bros. Discovery
+                        </a>
+                    </div>
+                    <div class="card-snippet">Paramount Skydance had been considered the front-runner in the bidding war for Warner Bros. Discovery, but signaled on Thursday that it felt...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 08:21</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/costcos-stock-turns-negative-for-the-year-as-u-s-sales-trends-decelerate-f99e8e60?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            Costco’s stock turns negative for the year as U.S. sales trends decelerate
+                        </a>
+                    </div>
+                    <div class="card-snippet">Costco’s stock has fallen into the red for 2025, as U.S. comparable sales rose in the latest month, but by less than they did the month befo...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 08:14</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/metas-stock-pop-could-be-just-the-start-as-zuckerberg-takes-aim-at-black-hole-of-spending-0fae0c17?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            Meta’s stock pop could be just the start as Zuckerberg takes aim at ‘black hole’ of spending
+                        </a>
+                    </div>
+                    <div class="card-snippet">Reports that Meta plans to slash its metaverse budget by as much as 30% have eased investor concerns around AI spending and ignited a rally</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 08:10</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/us/politics/trump-congo-rwanda-leaders-peace-talks.html" target="_blank" rel="noopener noreferrer">
+                            Trump Says He ‘Ended’ the War Between Rwanda and Congo, but Fighting Persists
+                        </a>
+                    </div>
+                    <div class="card-snippet">The president trumpeted a peace pact in a meeting with the two countries’ leaders that includes incentives for U.S. access to minerals. Figh...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 08:02</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.marketwatch.com/story/fire-fans-had-mapped-the-road-to-early-retirement-then-health-insurance-costs-exploded-03bd97f8?mod=mw_rss_topstories" target="_blank" rel="noopener noreferrer">
+                            These meticulous savers thought they could retire decades early — but soaring health-insurance costs are wrecking their plans
+                        </a>
+                    </div>
+                    <div class="card-snippet">With pandemic-era subsidies for Obamacare set to end in 2026, people in the FIRE community are adjusting their plans to account for bigger h...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">MarketWatch</span>
+                    <span class="timestamp">2025-12-05 07:52</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/c62d8v6jpwzo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Suspect arrested in pipe bomb incident on eve of 2021 Capitol riot
+                        </a>
+                    </div>
+                    <div class="card-snippet">The bombs were placed the night before the 6 January riots, and were discovered as rioters began to storm the Capitol.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 07:48</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-04/leading-ai-chipmaker-moore-threads-1-1-billion-ipo-puts-china-s-tech-in-focus" target="_blank" rel="noopener noreferrer">
+                            China Chipmaker Moore Threads Soars 502% After $1.1 Billion IPO
+                        </a>
+                    </div>
+                    <div class="card-snippet">Moore Threads Technology Co., a leading Chinese artificial intelligence chipmaker, surged in its Shanghai trading debut after raising 8 bill...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 07:30</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/africa/sudan-civil-war-kordofan.html" target="_blank" rel="noopener noreferrer">
+                            U.N. Warns of ‘Another Wave of Atrocities’ in Sudan’s Civil War
+                        </a>
+                    </div>
+                    <div class="card-snippet">Paramilitary groups have intensified an offensive on a crucial region bordering Darfur, prompting fears of another massacre.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 07:14</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/europe/spain-migration-latin-america.html" target="_blank" rel="noopener noreferrer">
+                            Spain Sees Itself as a Beacon for Immigrants. So Do Many Latin Americans.
+                        </a>
+                    </div>
+                    <div class="card-snippet">The government presents its migrant policy as a welcoming alternative to U.S. crackdowns. But activists say those arriving on boats from Afr...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 07:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-04/openai-nextdc-plan-to-develop-large-scale-data-center-in-sydney" target="_blank" rel="noopener noreferrer">
+                            OpenAI, NextDC Plan to Build $4.6 Billion Sydney Data Center
+                        </a>
+                    </div>
+                    <div class="card-snippet">OpenAI partnered with Australian data center operator NextDC Ltd. to build a A$7 billion ($4.6 billion) large-scale computing cluster in Syd...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 06:36</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cgexgwr1wrro?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Putin says Russia will take Donbas by force or Ukraine&#x27;s troops will withdraw
+                        </a>
+                    </div>
+                    <div class="card-snippet">The Russian leader&#x27;s comments come as US and Ukrainian negotiators are due to hold a new round of talks.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 06:20</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-04/big-shift-in-ai-stock-trade-drives-hunt-for-new-stars-in-asia" target="_blank" rel="noopener noreferrer">
+                            Big Shift in AI Stock Trade Drives Hunt for New Stars in Asia
+                        </a>
+                    </div>
+                    <div class="card-snippet">The hunt is on for new Asian equity winners from the artificial intelligence trade, as a technological shift and bubble fears reshape the in...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 06:20</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/features/2025-microsoft-excel-ai-software/" target="_blank" rel="noopener noreferrer">
+                            Microsoft Is the House That Excel Built
+                        </a>
+                    </div>
+                    <div class="card-snippet">The ubiquitous spreadsheet software is expensive, derivative and depressing. It’s also the software the world can’t quit, even in the era of...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 06:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/videos/2025-12-04/excel-turns-40-why-we-can-t-quit-microsoft-s-spreadsheet-app" target="_blank" rel="noopener noreferrer">
+                            Excel Turns 40: Why We Can&#x27;t Quit Microsoft&#x27;s Spreadsheet App
+                        </a>
+                    </div>
+                    <div class="card-snippet">Microsoft Excel is expensive, derivative and depressing. The 40-year-old spreadsheet software might also be the most killer app of all time,...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 06:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-04/apple-taps-top-meta-lawyer-as-general-counsel-in-latest-shake-up" target="_blank" rel="noopener noreferrer">
+                            Apple Taps Meta Lawyer as General Counsel in Latest Shake-Up
+                        </a>
+                    </div>
+                    <div class="card-snippet">Apple Inc. hired Meta Platforms Inc. Chief Legal Officer Jennifer Newstead as its general counsel, part of a wave of executive changes at th...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 05:52</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cnv21vnyy9lo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Alert sent for Nevada earthquake that did not happen
+                        </a>
+                    </div>
+                    <div class="card-snippet">An erroneous alert warning of a major Nevada earthquake reached as far as California before being withdrawn.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 05:50</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/videos/2025-12-04/the-key-takeaways-from-hpe-s-disappointing-sales-outlook-video" target="_blank" rel="noopener noreferrer">
+                            The Key Takeaways From HPE&#x27;s Disappointing Sales Outlook
+                        </a>
+                    </div>
+                    <div class="card-snippet">Moor Insights &amp; Strategy founder and CEO Patrick Moorhead reacts to Hewlett Packard Enterprise&#x27;s sales outlook on &quot;Bloomberg The Close.&quot; HPE...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 05:50</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/videos/2025-12-04/bloomberg-tech-12-4-2025-video" target="_blank" rel="noopener noreferrer">
+                            Meta Stock Surges on Plans for Metaverse Cuts | Bloomberg Tech 12/4/2025
+                        </a>
+                    </div>
+                    <div class="card-snippet">Bloomberg’s Caroline Hyde and Ed Ludlow discuss Meta’s plan to cut resources for building its metaverse, the virtual world that Mark Zuckerb...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 05:48</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cz0nd088e09o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Prominent anti-Hamas militia leader Yasser Abu Shabab killed in Gaza
+                        </a>
+                    </div>
+                    <div class="card-snippet">His Popular Forces group says Abu Shabab was shot while attempting to resolve a family dispute and not killed by Hamas.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 05:45</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/videos/2025-12-04/open-interest-12-4-2025-video" target="_blank" rel="noopener noreferrer">
+                            Meta Cuts Metaverse Unit Budget 30% | Open Interest 12/4/2025
+                        </a>
+                    </div>
+                    <div class="card-snippet">Get a jump start on the US trading day with Matt Miller and Dani Burger on &quot;Bloomberg Open Interest.&quot; Dollar General pops on stronger guidan...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 05:32</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/c4gk7gz3d1eo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            &#x27;All Israeli people are with us&#x27;, parents of last dead hostage in Gaza tell BBC
+                        </a>
+                    </div>
+                    <div class="card-snippet">The body of Ran Gvili, a 24-year-old Israeli police officer, is the last not yet returned by Hamas from Gaza.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 05:17</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/europe/vatican-pope-women-priests-deacons.html" target="_blank" rel="noopener noreferrer">
+                            After Years of Debate, Vatican Says No to Women Deacons, at Least for Now
+                        </a>
+                    </div>
+                    <div class="card-snippet">But a papal commission examining the question said further study was required, and advised that women should be given other leadership roles...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 05:12</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-04/hpe-projects-sales-that-miss-estimates-on-delayed-server-deals" target="_blank" rel="noopener noreferrer">
+                            HPE Falls After Sales Outlook Disappoints on Slower Server Deals
+                        </a>
+                    </div>
+                    <div class="card-snippet">Hewlett Packard Enterprise Co. shares declined in extended trading after the company gave an outlook for sales in the current quarter that f...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-05 05:11</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/us-news/2025/dec/04/video-second-boat-strike-military-caribbean" target="_blank" rel="noopener noreferrer">
+                            Experts urge release of boat strike video as US admiral denies ‘kill them all’ order
+                        </a>
+                    </div>
+                    <div class="card-snippet">Democrat Jim Himes calls footage ‘one of the most troubling scenes’ he’s observed in public service Analysis: Killing of survivors sparks ou...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-05 04:43</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cde6d8wyp79o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Ireland among countries boycotting Eurovision after Israel allowed to compete
+                        </a>
+                    </div>
+                    <div class="card-snippet">There had been calls for Israel&#x27;s exclusion over the war in Gaza, as well as unfair voting accusations.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 03:52</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/c62n6y9yd70o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Israel strikes south Lebanon after first direct talks in decades
+                        </a>
+                    </div>
+                    <div class="card-snippet">The Israeli military says it struck Hezbollah sites, less than 24 hours after Israel and Lebanon sent civilian envoys to meet.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 03:47</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cjrjn88jqn4o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Trump hosts signing of peace deal between leaders of DR Congo and Rwanda
+                        </a>
+                    </div>
+                    <div class="card-snippet">The US president hopes that a peace deal will pave the way for greater American investment in the resource-rich region.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 03:17</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/middleeast/gaza-strikes-ceasefire.html" target="_blank" rel="noopener noreferrer">
+                            Deadly Attacks in Gaza Test Cease-Fire as Body of Another Captive Is Returned
+                        </a>
+                    </div>
+                    <div class="card-snippet">Israel launched a military strike after it said Hamas militants attacked its soldiers, the latest clashes in the two months since a truce wa...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 02:51</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/europe/aid-workers-greece-migration-trial-smuggling.html" target="_blank" rel="noopener noreferrer">
+                            Aid Workers Stand Trial for Helping to Smuggle People Into Greece
+                        </a>
+                    </div>
+                    <div class="card-snippet">The activists provided support to people who sought sanctuary in Greece during Europe’s migration crisis.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 01:55</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/middleeast/yasser-abu-shabab-killed-gaza.html" target="_blank" rel="noopener noreferrer">
+                            Yasser Abu Shabab, Militant Leader Backed by Israel, Is Killed in Gaza, Official Says
+                        </a>
+                    </div>
+                    <div class="card-snippet">Yasser Abu Shabab, a Bedouin man in his 30s, was at the center of an Israeli project in Gaza to build up anti-Hamas militias.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-05 00:32</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cwyv7ggqpjpo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Tanzanian activist blocked from Instagram after mobilising election protests
+                        </a>
+                    </div>
+                    <div class="card-snippet">Meta confirms it removed Mange Kimambi&#x27;s social media accounts for violating their policy.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-05 00:23</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/world/2025/dec/04/us-eu-critical-minerals-project-drc-report-lobito-corridor" target="_blank" rel="noopener noreferrer">
+                            US and EU critical minerals project could displace thousands in DRC – report
+                        </a>
+                    </div>
+                    <div class="card-snippet">Global Witness says plan to upgrade railway line to Angola puts up to 1,200 buildings at risk of demolition Up to 6,500 people are at risk o...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-05 00:08</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/africa/kenya-diplomat-sex-abuse-women.html" target="_blank" rel="noopener noreferrer">
+                            The Diplomat Who Was Accused of Sexual Abuse but Kept His Job
+                        </a>
+                    </div>
+                    <div class="card-snippet">President William Ruto faces pressure after a Times investigation showed that his government downplayed or ignored the mistreatment of women...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-04 23:39</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/asia/sri-lanka-cyclone-flood-damage.html" target="_blank" rel="noopener noreferrer">
+                            Ruined Rice Fields and Broken Rail Lines: Sri Lanka Counts Cost of Cyclone
+                        </a>
+                    </div>
+                    <div class="card-snippet">Officials estimate the damage runs into billions of dollars, a headache for the island nation just recovering from an economic crash.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-04 23:06</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/03/world/asia/india-russia-putin-visit-arms.html" target="_blank" rel="noopener noreferrer">
+                            What to Know About Putin’s Visit to India as Oil Trade Dries Up
+                        </a>
+                    </div>
+                    <div class="card-snippet">The Trump administration, which crippled Russia’s oil sales to India with sanctions, will be watching Mr. Putin’s talks with Prime Minister ...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-04 23:01</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cj4q2vpggr9o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Oil, defence and geopolitics: Why Putin is visiting Modi in Delhi
+                        </a>
+                    </div>
+                    <div class="card-snippet">BBC editors explain what is at stake as Russian President Vladimir Putin starts a two-day visit to India.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-04 22:56</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/c157n1g977go?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            &#x27;Like first aid for manuscripts&#x27;: Recovery work begins at Gaza&#x27;s war-damaged heritage sites
+                        </a>
+                    </div>
+                    <div class="card-snippet">Palestinians are clearing rubble from archaeological sites, but restoration is hampered by Israeli restrictions on building materials.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-04 22:52</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/world/2025/dec/04/nauru-australia-offshore-processing-asylum-seekers-conditions-hunger-declining-health" target="_blank" rel="noopener noreferrer">
+                            ‘Day by day I lose weight’: asylum seekers on Nauru get $115 a week, but a bag of grapes costs $20
+                        </a>
+                    </div>
+                    <div class="card-snippet">Prohibited from working, people sent to the island by Australia say they are struggling to survive because food is so expensive Follow our A...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 22:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-04/meta-s-zuckerberg-plans-deep-cuts-for-metaverse-efforts" target="_blank" rel="noopener noreferrer">
+                            Meta’s Zuckerberg Plans Deep Cuts for Metaverse Efforts
+                        </a>
+                    </div>
+                    <div class="card-snippet">Meta Platforms Inc.’s Mark Zuckerberg is expected to meaningfully cut resources for building the so-called metaverse, an effort that he once...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-04 22:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/us-news/2025/dec/04/student-describes-horror-show-ice-deportation-to-honduras-at-thanksgiving" target="_blank" rel="noopener noreferrer">
+                            Student describes ‘horror show’ ICE deportation to Honduras at Thanksgiving
+                        </a>
+                    </div>
+                    <div class="card-snippet">Any Lucia López Belloza, 19, was detained at Boston airport while on the way to see family in Austin for a surprise trip Any Lucia López Bel...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 21:33</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/middleeast/israel-west-bank-settlements-palestinians.html" target="_blank" rel="noopener noreferrer">
+                            How Israel’s Settlement Surge in the West Bank Is Displacing Palestinians
+                        </a>
+                    </div>
+                    <div class="card-snippet">The Israeli government authorized 22 settlements in May, the largest expansion in decades, and Palestinian families are now being forced fro...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-04 21:03</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/us-news/2025/dec/04/venezuela-boat-strikes-legality-hegseth" target="_blank" rel="noopener noreferrer">
+                            Killing of survivors sparks outrage – but entire US ‘drug boat’ war is legally shaky
+                        </a>
+                    </div>
+                    <div class="card-snippet">Pentagon’s Law of War manual clearly prohibits attack, but justification for whole campaign also faces tough questions Graphic depictions of...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 20:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cd6x2j4g3z7o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Israel says Palestinian groups returned body of Thai hostage held in Gaza
+                        </a>
+                    </div>
+                    <div class="card-snippet">The remains of agricultural worker Suthisak Rintalak were recovered by Hamas and Palestinian Islamic Jihad in northern Gaza.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-04 19:02</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/c4g5rrlve33o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            Previously unseen images of Epstein&#x27;s island released
+                        </a>
+                    </div>
+                    <div class="card-snippet">The new images come as a deadline for the broader release of documents held by the US government looms.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-04 18:31</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/europe/france-escargot-heist.html" target="_blank" rel="noopener noreferrer">
+                            Snail Theft Hits France Before Holiday Rush
+                        </a>
+                    </div>
+                    <div class="card-snippet">Shop owners say the thieves who took 990 pounds of snails must have been escargot cognoscenti.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-04 18:05</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bloomberg.com/news/articles/2025-12-04/softbank-backed-dayone-is-said-to-eye-2-billion-in-upsized-deal" target="_blank" rel="noopener noreferrer">
+                            GDS-Backed DayOne Is Said to Eye $2 Billion in Upsized Deal
+                        </a>
+                    </div>
+                    <div class="card-snippet">DayOne Data Centers Ltd. is in advanced talks to raise more than $2 billion in an upsized Series C funding round to help support its expansi...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">Bloomberg Tech</span>
+                    <span class="timestamp">2025-12-04 17:22</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.nytimes.com/2025/12/04/world/asia/taiwan-opposition-cheng-china.html" target="_blank" rel="noopener noreferrer">
+                            Taiwan’s Opposition Leader, Once for Independence, Turns Toward China
+                        </a>
+                    </div>
+                    <div class="card-snippet">She says Taiwan must embrace its Chinese heritage to avoid war. Her critics say she wants to steer the island into Beijing’s orbit.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">NY Times World</span>
+                    <span class="timestamp">2025-12-04 15:38</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/global-development/2025/dec/04/aid-cuts-africa-uganda-stops-refugee-status-eritreans-somalis-ethiopians" target="_blank" rel="noopener noreferrer">
+                            Uganda stops granting refugee status for Eritreans, Somalis and Ethiopians
+                        </a>
+                    </div>
+                    <div class="card-snippet">Government once seen as progressive on migration says aid cuts to blame for excluding countries ‘not experiencing war’ The Ugandan governmen...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 15:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.bbc.com/news/articles/cp84y7jx2pzo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">
+                            South Korea developing app that shows real-time location of stalkers
+                        </a>
+                    </div>
+                    <div class="card-snippet">Critics have voiced concern over the pervasiveness of stalking and violence against women in South Korea.</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">BBC World</span>
+                    <span class="timestamp">2025-12-04 13:51</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/artanddesign/2025/dec/04/ibrahim-mahama-ghana-tops-artreview-power-list" target="_blank" rel="noopener noreferrer">
+                            Ghana’s Ibrahim Mahama first African to top annual art power list
+                        </a>
+                    </div>
+                    <div class="card-snippet">Artist who once draped Barbican in brightly coloured fabric says he is humbled by recognition in ArtReview rankings The Ghanaian artist Ibra...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 13:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/world/2025/dec/04/thailand-scam-cyberscam-crackdown-arrests-south-east-asia" target="_blank" rel="noopener noreferrer">
+                            Thailand seizes more than $300m in assets and issues 42 arrest warrants in cyberscam crackdown
+                        </a>
+                    </div>
+                    <div class="card-snippet">Seizures and warrants involve Chinese-Cambodian tycoon Chen Zhi, who heads US-sanctioned Prince Group, and Cambodians Kok An and Yim Leak Th...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 11:44</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/news/2025/dec/04/hong-kong-fire-death-toll-protective-netting-remove" target="_blank" rel="noopener noreferrer">
+                            Hong Kong warns ‘external forces’ working to exploit apartment fire, as death toll rises to 159
+                        </a>
+                    </div>
+                    <div class="card-snippet">Police say number of dead may still be revised as ‘suspected human bones’ found during search require forensic testing Hong Kong and Beijing...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 09:20</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/uk-news/2025/dec/03/british-troops-accused-of-human-rights-violations-environmental-destruction-and-sexual-abuse-in-kenya" target="_blank" rel="noopener noreferrer">
+                            British troops accused of human rights violations and sexual abuse in Kenya
+                        </a>
+                    </div>
+                    <div class="card-snippet">Kenyan parliament says UK army training unit ‘dismissed most complaints as false, without publishing its findings’ A report by the Kenyan pa...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 03:00</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/us-news/2025/dec/03/epstein-caribbean-island-new-photo-video-release" target="_blank" rel="noopener noreferrer">
+                            House Democrats release new images of Epstein’s private Caribbean island
+                        </a>
+                    </div>
+                    <div class="card-snippet">Images and videos taken in 2020, a year after he died in jail, show the late sex offender’s home US politics – live updates House Democrats ...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-04 02:13</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/world/2025/dec/03/colombia-trump-warning-military-threat" target="_blank" rel="noopener noreferrer">
+                            Colombia’s president warns Trump: ‘Do not wake the jaguar’ with threats of military strikes
+                        </a>
+                    </div>
+                    <div class="card-snippet">Gustavo Petro responded to intimations by US president of military strikes on Colombian soil to fight drug trafficking Colombia ’s president...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-03 22:16</span>
+                </div>
+            </article>
+            
+
+            <article class="card">
+                <div>
+                    <div class="card-title">
+                        <a href="https://www.theguardian.com/global-development/2025/dec/03/whistleblower-accuses-foreign-office-of-censoring-warning-of-sudan-genocide" target="_blank" rel="noopener noreferrer">
+                            Whistleblower accuses Foreign Office of ‘censoring’ warning of Sudan genocide
+                        </a>
+                    </div>
+                    <div class="card-snippet">Exclusive: Analyst claims UK officials deleted alert to threat of genocidal violence by paramilitaries to protect UAE Warnings of a possible...</div>
+                </div>
+                <div class="card-meta">
+                    <span class="badge">The Guardian World</span>
+                    <span class="timestamp">2025-12-03 19:40</span>
+                </div>
+            </article>
+            
+</div>
+</section>
+</div>
+<footer>Generated by Python RSS dashboard</footer>
+</body>
+</html>
